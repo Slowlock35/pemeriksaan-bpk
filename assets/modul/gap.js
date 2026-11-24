@@ -1,7 +1,8 @@
 /* Modul Gap dan mitigasi — View.
  * Model terbuka (data.json -> modul.gap): jumlah gap per tingkat dan per kategori.
  * Model terkunci (locked.bin -> modul.gap): per gap — tingkat, status, dan ringkasan untuk tim.
- * Gap dikelompokkan menurut tingkatnya, tertinggi lebih dulu. */
+ * Gap dikelompokkan menurut tingkatnya, tertinggi lebih dulu. Bisa disaring menurut kategori
+ * (kedua keadaan); tombol "N gap" pada ubin kategori di Ringkasan datang ke sini sudah tersaring. */
 Halaman.daftar({
   id: "gap",
   judul: "Gap dan mitigasi",
@@ -18,27 +19,38 @@ Halaman.daftar({
       ringkas.appendChild(H.el("div", "gap__meta", "Total: " + H.jumlahGap(total) + " gap · " +
         H.rincianGap(total).join(", ") + ". Rincianya terbuka bila halaman dibuka lewat tautan pada pesan grup WAG."));
       p.appendChild(ringkas);
-    } else {
-      var chip = H.el("div", "saring"), jumlah = {};
-      (H.kunci("gap").gaps || []).forEach(function (g) { jumlah[g.kategori] = (jumlah[g.kategori] || 0) + 1; });
-      function tombol(teks, nilai) {
-        var b = H.el("button", null, teks);
-        b.type = "button";
-        b.setAttribute("aria-pressed", saring === nilai ? "true" : "false");
-        b.onclick = function () { H.keadaan.saring = nilai; H.renderUlang(); };
-        chip.appendChild(b);
-      }
-      tombol("Semua", "SEMUA");
-      H.kategori().concat([{ id: "LINTAS" }]).forEach(function (k) {
-        if (jumlah[k.id]) tombol(H.namaKategori(k.id) + " · " + jumlah[k.id], k.id);
-      });
-      p.appendChild(chip);
     }
+
+    /* saringan kategori berlaku di kedua keadaan: tombol "N gap" pada ubin kategori di Ringkasan
+       tiba di sini dengan kategorinya sudah tersaring (permintaan pemilik 24 Nov) */
+    var jumlah = {};
+    if (buka) {
+      (H.kunci("gap").gaps || []).forEach(function (g) { jumlah[g.kategori] = (jumlah[g.kategori] || 0) + 1; });
+    } else {
+      H.kategori().forEach(function (k) { jumlah[k.id] = H.jumlahGap(k.gap); });
+    }
+    if (saring !== "SEMUA" && !jumlah[saring]) saring = H.keadaan.saring = "SEMUA";   // kategori terpilih sudah tanpa gap
+    var chip = H.el("div", "saring");
+    chip.setAttribute("role", "group");
+    chip.setAttribute("aria-label", "Saring menurut kategori");
+    function tombol(teks, nilai) {
+      var b = H.el("button", null, teks);
+      b.type = "button";
+      b.setAttribute("aria-pressed", saring === nilai ? "true" : "false");
+      b.onclick = function () { H.keadaan.saring = nilai; H.renderUlang(); };
+      chip.appendChild(b);
+    }
+    tombol("Semua", "SEMUA");
+    H.kategori().concat([{ id: "LINTAS" }]).forEach(function (k) {
+      if (jumlah[k.id]) tombol(H.namaKategori(k.id) + " · " + jumlah[k.id], k.id);
+    });
+    p.appendChild(chip);
 
     var daftar = H.el("ul", "daftar-gap");
     if (!buka) {
       /* tanpa tautan khusus: hanya hitungan per kategori, tanpa rincian */
       H.kategori().forEach(function (k) {
+        if (saring !== "SEMUA" && saring !== k.id) return;
         var bagian = H.rincianGap(k.gap);
         if (!bagian.length) return;
         var li = H.el("li", "gap"), i = H.el("div", "gap__ikon");

@@ -52,17 +52,46 @@ Halaman.daftar({
     ((H.keadaan.linimasa || {}).fase || []).forEach(function (f) { ol.appendChild(H.kartuFase(f, false)); });
     p.appendChild(ol);
 
+    /* ubin kategori bisa diklik (permintaan pemilik 24 Nov): badan ubin membuka kartu kategori itu di tab
+       Unggah dokumen; tombol "N gap" langsung ke tab Gap yang sudah tersaring ke kategori itu */
     p.appendChild(H.judul("Kategori", "map"));
     var ubin = H.el("ul", "ubin");
+    function keTab(id) {                     // pindah tab, lalu mulai dari atas isi tabnya
+      H.bukaTab(id);
+      var nav = document.getElementById("tabs");            // di ponsel bilah tab terpaku di bawah
+      (getComputedStyle(nav).position === "fixed" ? document.getElementById("tab-" + id) : nav)
+        .scrollIntoView({ block: "start", behavior: "instant" });
+    }
     H.kategori().forEach(function (k) {
-      var li = H.el("li");
-      li.appendChild(H.el("div", "ubin__id", k.id));
-      li.appendChild(H.el("div", "ubin__nama", k.nama));
-      var bw = H.el("div", "ubin__bawah");
-      bw.appendChild(H.stikel(H.label("kesiapan", k.kesiapan), H.nadaKesiapan(k.kesiapan)));
+      var li = H.el("li", "ubin__item");
+
+      var buka = H.el("button", "ubin__buka");
+      buka.type = "button";
+      buka.setAttribute("aria-label", "Buka kategori " + k.id + " " + k.nama + " di tab Unggah dokumen");
+      var atas = H.el("div", "ubin__atas");
+      atas.appendChild(H.el("span", "ubin__id", k.id));
+      var panah = H.el("span", "ubin__panah");
+      panah.appendChild(H.ikon("panah"));
+      atas.appendChild(panah);
+      buka.appendChild(atas);
+      buka.appendChild(H.el("div", "ubin__nama", k.nama));
+      buka.appendChild(H.stikel(H.label("kesiapan", k.kesiapan), H.nadaKesiapan(k.kesiapan)));
+      buka.onclick = function () { H.keadaan.kategoriUnggah = k.id; H.renderUlang(); keTab("unggah"); };
+      li.appendChild(buka);
+
       var t = H.jumlahGap(k.gap);
-      if (t) bw.appendChild(H.stikel(t + " gap", "terlambat", "peringatan"));
-      li.appendChild(bw);
+      if (t) {
+        var g = H.el("button", "status status--terlambat status--ikon ubin__gap");
+        g.type = "button";
+        g.setAttribute("aria-label", "Lihat " + t + " gap kategori " + k.id + " " + k.nama + " di tab Gap");
+        g.appendChild(H.ikon("peringatan"));
+        g.appendChild(document.createTextNode(t + " gap"));
+        g.appendChild(H.ikon("panah"));
+        g.onclick = function () { H.keadaan.saring = k.id; H.renderUlang(); keTab("gap"); };
+        var bw = H.el("div", "ubin__bawah");
+        bw.appendChild(g);
+        li.appendChild(bw);
+      }
       ubin.appendChild(li);
     });
     p.appendChild(ubin);

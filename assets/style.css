@@ -235,10 +235,22 @@ main { margin-top: 24px; min-height: 60vh; }
   padding: 14px; box-shadow: var(--bayang);
   transition: transform .15s ease, box-shadow .15s ease;
 }
-.ubin li:hover { transform: translateY(-2px); }
+.ubin li:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(16, 42, 67, .12); }
 .ubin__id { font-size: 13px; font-weight: 750; color: var(--teal-kuat); letter-spacing: .04em; }
 .ubin__nama { font-weight: 650; color: var(--navy); margin-top: 2px; min-height: 2.6em; }
 .ubin__bawah { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+
+/* ubin bisa diklik: badan ubin = kartu kategori di tab Unggah dokumen; "N gap" = tab Gap tersaring */
+.ubin__buka {
+  appearance: none; background: none; border: 0; margin: 0; padding: 0; width: 100%;
+  display: block; text-align: left; font: inherit; color: inherit; cursor: pointer;
+}
+.ubin__buka .status { margin-top: 10px; }
+.ubin__atas { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.ubin__panah { display: inline-flex; color: var(--redup); }
+.ubin__panah .ikon { width: 15px; height: 15px; }
+.ubin li:hover .ubin__nama, .ubin li:hover .ubin__panah { color: var(--teal-kuat); }
+.ubin button:focus-visible { outline: 3px solid var(--emas); outline-offset: 2px; border-radius: 6px; }
 
 /* ---------- label status ---------- */
 .status {
@@ -255,6 +267,9 @@ main { margin-top: 24px; min-height: 60vh; }
 .status--teal { background: var(--teal-lembut); color: var(--teal-kuat); }
 .status--rencana { background: var(--rencana-lembut); color: var(--rencana); }
 .status--emas { background: var(--emas-lembut); color: #8a6412; }
+.status.ubin__gap { cursor: pointer; border: 0; min-height: 34px; padding: 5px 12px; transition: background .15s ease, color .15s ease; }
+.status.ubin__gap .ikon:last-child { width: 13px; height: 13px; margin-left: -2px; }
+.status.ubin__gap:hover { background: var(--terlambat); color: #fff; }
 
 /* ---------- lini masa: tabel kemajuan ---------- */
 .tabel-gulir { background: var(--kartu); border: 1px solid var(--garis); border-radius: var(--sudut); box-shadow: var(--bayang); overflow-x: auto; }

@@ -250,7 +250,14 @@
     H.modul.forEach(function (m) {
       var panel = document.getElementById("tab-" + m.id);
       panel.textContent = "";
-      m.render(H, panel);
+      try {
+        m.render(H, panel);
+      } catch (e) {
+        /* satu modul yang gagal tidak boleh menjatuhkan tab lain atau dianggap tautan yang salah */
+        console.error("modul " + m.id + ":", e);
+        panel.appendChild(kosong("Bagian ini belum dapat ditampilkan. Muat ulang halaman; bila tetap, " +
+          "sampaikan ke koordinator.", "lingkaran-seru"));
+      }
       var l = document.getElementById("titik-" + m.id);
       if (l) {
         var n = m.lencana ? (m.lencana() || 0) : 0;
