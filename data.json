@@ -1,10 +1,10 @@
 {
  "bentuk": 4,
- "revision": 1286,
+ "revision": 1288,
  "data": {
   "hari": "Selasa",
   "tanggal": "24-11-2026",
-  "jam": "20.59"
+  "jam": "21.07"
  },
  "basis": {
   "kategori": [
@@ -35,7 +35,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 97,
+     "terunggah": 116,
      "baris_indeks": 1591
     },
     "tenggat": "2026-11-27",
@@ -207,12 +207,12 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 274,
-     "baris_indeks": 4044
+     "baris_indeks": 3999
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 3,
-     "SEDANG": 8,
+     "TINGGI": 4,
+     "SEDANG": 7,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     }
@@ -255,13 +255,13 @@
     "label": "Dokumen seluruh kategori kumpul"
    },
    "gap": {
-    "TINGGI": 12,
-    "SEDANG": 46,
+    "TINGGI": 13,
+    "SEDANG": 45,
     "RENDAH": 1,
     "PERLU_VERIFIKASI": 26
    },
    "dokumen": {
-    "terunggah": 430,
+    "terunggah": 449,
     "kamar_berisi": 7,
     "total_kategori": 12,
     "dibaca_dari_drive": true
@@ -269,8 +269,8 @@
   },
   "gap": {
    "total": {
-    "TINGGI": 12,
-    "SEDANG": 46,
+    "TINGGI": 13,
+    "SEDANG": 45,
     "RENDAH": 1,
     "PERLU_VERIFIKASI": 26
    },
@@ -288,8 +288,8 @@
      "PERLU_VERIFIKASI": 2
     },
     "G11": {
-     "TINGGI": 3,
-     "SEDANG": 8,
+     "TINGGI": 4,
+     "SEDANG": 7,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
