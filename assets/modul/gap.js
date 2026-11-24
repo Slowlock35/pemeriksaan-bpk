@@ -82,13 +82,13 @@ Halaman.daftar({
           if (g.pic) {
             var pj = H.el("div", "gap__meta");
             pj.appendChild(H.ikon("orang"));
-            pj.appendChild(document.createTextNode(" Penangan: " + g.pic));
+            pj.appendChild(document.createTextNode("Penangan: " + g.pic));
             isi.appendChild(pj);
           }
           if (g.mitigasi) {
             var mit = H.el("div", "gap__meta");
             mit.appendChild(H.ikon("kendali"));
-            mit.appendChild(document.createTextNode(" Mitigasi: " + g.mitigasi));
+            mit.appendChild(document.createTextNode("Mitigasi: " + g.mitigasi));
             isi.appendChild(mit);
           }
           if (g.diperbarui) isi.appendChild(H.el("div", "bilah-hint", "Diperbarui " + H.tgl(g.diperbarui)));
@@ -114,7 +114,7 @@ Halaman.daftar({
       });
     var petunjuk = H.el("div", "bilah-hint kendali__petunjuk");
     petunjuk.appendChild(H.ikon("info"));
-    petunjuk.appendChild(document.createTextNode(" Belum dinilai berarti buktinya belum diperiksa, bukan berarti tidak dikerjakan."));
+    petunjuk.appendChild(document.createTextNode("Belum dinilai berarti buktinya belum diperiksa, bukan berarti tidak dikerjakan."));
     k.appendChild(petunjuk);
     p.appendChild(k);
 
@@ -139,7 +139,7 @@ Halaman.daftar({
         if (b.peran) {
           var peran = H.el("div", "gap__meta");
           peran.appendChild(H.ikon("orang"));
-          peran.appendChild(document.createTextNode(" Peran: " + b.peran));
+          peran.appendChild(document.createTextNode("Peran: " + b.peran));
           isi.appendChild(peran);
         }
         li.appendChild(isi);

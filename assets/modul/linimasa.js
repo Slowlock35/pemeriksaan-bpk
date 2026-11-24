@@ -55,7 +55,7 @@ Halaman.daftar({
 
     var catatan = H.el("p", "bilah-hint catatan-ukur");
     catatan.appendChild(H.ikon("info"));
-    catatan.appendChild(document.createTextNode(" Berkas di kamar = berkas pada folder Drive kategori selain INDEKS. " +
+    catatan.appendChild(document.createTextNode("Berkas di kamar = berkas pada folder Drive kategori selain INDEKS. " +
       "Baris INDEKS = banyaknya baris daftar pada INDEKS kamar. Satu baris belum tentu satu berkas, " +
       "karena itu kemajuan tidak dihitung persen."));
     p.appendChild(catatan);

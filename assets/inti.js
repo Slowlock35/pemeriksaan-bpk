@@ -223,7 +223,7 @@
     s.textContent = "";
     s.appendChild(ikon("segarkan"));
     /* "Data per …" — nomor revisi register adalah urusan koordinator, hanya di kaki halaman */
-    s.appendChild(document.createTextNode(" Data per " + (teks || "—")));
+    s.appendChild(document.createTextNode("Data per " + (teks || "—")));
     $("#catatan-kaki").textContent = "Halaman ini untuk memantau dan menilai kemajuan; bukan tempat mengubah status. " +
       (teks ? "Data terakhir diperbarui " + teks + " (revisi data " + d.revision + "). " : "") +
       "Jumlah berkas di kamar dibaca dari Google Drive saat halaman diperbarui.";

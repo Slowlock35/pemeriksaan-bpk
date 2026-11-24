@@ -45,7 +45,7 @@ Halaman.daftar({
       function baris(ikonNama, judul, isi) {
         var dt = H.el("dt");
         dt.appendChild(H.ikon(ikonNama));
-        dt.appendChild(document.createTextNode(" " + judul));
+        dt.appendChild(document.createTextNode(judul));
         dl.appendChild(dt);
         dl.appendChild(H.el("dd", null, isi));
       }
@@ -63,7 +63,7 @@ Halaman.daftar({
         a.target = "_blank";
         a.rel = "noopener noreferrer";
         a.appendChild(H.ikon("buka"));
-        a.appendChild(document.createTextNode(" Buka folder kategori ini"));
+        a.appendChild(document.createTextNode("Buka folder kategori ini"));
         bw.appendChild(a);
       } else {
         var b = H.el("button", "tombol tombol--sekunder", buka ? "Tautan folder belum tersedia" : "Belum terbuka · butuh tautan khusus");
