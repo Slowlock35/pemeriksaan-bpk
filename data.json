@@ -1,10 +1,10 @@
 {
  "bentuk": 4,
- "revision": 1292,
+ "revision": 1294,
  "data": {
-  "hari": "Selasa",
-  "tanggal": "24-11-2026",
-  "jam": "21.42"
+  "hari": "Rabu",
+  "tanggal": "25-11-2026",
+  "jam": "07.02"
  },
  "basis": {
   "kategori": [
@@ -43,7 +43,7 @@
      "TINGGI": 2,
      "SEDANG": 7,
      "RENDAH": 1,
-     "PERLU_VERIFIKASI": 5
+     "PERLU_VERIFIKASI": 6
     }
    },
    {
@@ -251,14 +251,14 @@
    },
    "tenggat_berikut": {
     "tanggal": "2026-11-27",
-    "hari": 3,
+    "hari": 2,
     "label": "Dokumen seluruh kategori kumpul"
    },
    "gap": {
     "TINGGI": 13,
     "SEDANG": 47,
     "RENDAH": 1,
-    "PERLU_VERIFIKASI": 26
+    "PERLU_VERIFIKASI": 27
    },
    "dokumen": {
     "terunggah": 483,
@@ -272,7 +272,7 @@
     "TINGGI": 13,
     "SEDANG": 47,
     "RENDAH": 1,
-    "PERLU_VERIFIKASI": 26
+    "PERLU_VERIFIKASI": 27
    },
    "per_kategori": {
     "G08": {
@@ -303,7 +303,7 @@
      "TINGGI": 2,
      "SEDANG": 7,
      "RENDAH": 1,
-     "PERLU_VERIFIKASI": 5
+     "PERLU_VERIFIKASI": 6
     },
     "G04": {
      "TINGGI": 1,
