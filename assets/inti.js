@@ -377,8 +377,8 @@
         H.keadaan.kunci = kunci;
         renderSemua();
         $("#kunci").hidden = true;
-        /* tombol kembali ke Google Drive (folder induk): alamatnya ada di bagian terkunci */
-        var tautanDrive = ((kunci.unggah || {}).folder_utama || {}).folder_url, bukaDrive = $("#buka-drive");
+        /* tombol kembali ke Google Drive (folder induk): alamatnya ada di bagian terkunci modul Unggah */
+        var tautanDrive = ((((kunci.modul || {}).unggah) || {}).folder_utama || {}).folder_url, bukaDrive = $("#buka-drive");
         if (tautanDrive) {
           bukaDrive.href = tautanDrive;
           bukaDrive.hidden = false;

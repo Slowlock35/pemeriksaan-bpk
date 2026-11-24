@@ -1,8 +1,8 @@
 /* Modul Unggah dokumen — View.
  * Model terbuka: basis.kategori di data.json (kemajuan, tenggat).
  * Model terkunci (locked.bin -> modul.unggah): penanggung jawab, PIC bidang terkait, penelaah, dan
- * tombol folder Drive per kategori, dan tombol folder induk (kembali ke Google Drive). Tautan folder hanya
- * muncul sebagai tombol di sini dan di kepala halaman.
+ * tombol folder Drive per kategori, serta tombol folder induk (kembali ke Google Drive). Tautan folder
+ * hanya muncul sebagai tombol di sini dan di kepala halaman.
  * Jalur pengguna dibuat sesingkat mungkin: pilih kategorinya → tekan satu tombol → tiba di folder. */
 Halaman.daftar({
   id: "unggah",

@@ -1,10 +1,10 @@
 {
  "bentuk": 4,
- "revision": 684,
+ "revision": 685,
  "data": {
   "hari": "Selasa",
   "tanggal": "24-11-2026",
-  "jam": "19.38"
+  "jam": "19.42"
  },
  "basis": {
   "kategori": [
@@ -35,7 +35,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 74,
+     "terunggah": 81,
      "baris_indeks": 1591
     },
     "tenggat": "2026-11-27",
@@ -54,8 +54,8 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 6,
-     "baris_indeks": 116
+     "terunggah": 45,
+     "baris_indeks": 189
     },
     "tenggat": "2026-11-27",
     "gap": {
@@ -261,7 +261,7 @@
     "PERLU_VERIFIKASI": 26
    },
    "dokumen": {
-    "terunggah": 93,
+    "terunggah": 139,
     "kamar_berisi": 6,
     "total_kategori": 12,
     "dibaca_dari_drive": true
