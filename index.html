@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="referrer" content="no-referrer">
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<title>Pengendalian Pemeriksaan BPK · Balai Karantina Sulawesi Utara</title>
+<meta name="description" content="Rekap kemajuan persiapan pemeriksaan BPK per kategori, dari persiapan sampai tindak lanjut. Halaman ini proyeksi dari register koordinator.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f2a43'/%3E%3Cpath d='M9 17l5 5 9-11' fill='none' stroke='%2317b3a3' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="lewati" href="#utama">Lewati ke isi</a>
+
+<header class="atas">
+  <div class="pembungkus atas__bar">
+    <div>
+      <p class="atas__kicker">Balai Karantina Sulawesi Utara · 2026</p>
+      <h1 class="atas__judul">Pengendalian Pemeriksaan BPK</h1>
+      <p class="atas__sub">Kemajuan tiap kategori, dari persiapan sampai tindak lanjut.</p>
+    </div>
+    <p class="sinkron" id="sinkron" aria-live="polite">Memuat data…</p>
+  </div>
+  <nav class="pembungkus tabs" id="tabs" role="tablist" aria-label="Bagian halaman">
+    <button type="button" role="tab" aria-selected="true" aria-controls="tab-ringkasan" data-tab="ringkasan">Ringkasan</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="tab-linimasa" data-tab="linimasa" tabindex="-1">Lini masa</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="tab-gap" data-tab="gap" tabindex="-1">Gap dan mitigasi <span class="titik" id="titik-gap" hidden></span></button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="tab-unggah" data-tab="unggah" tabindex="-1">Unggah dokumen</button>
+    <button type="button" role="tab" aria-selected="false" aria-controls="tab-lanjut" data-tab="lanjut" tabindex="-1">Tindak lanjut</button>
+  </nav>
+</header>
+
+<main id="utama" class="pembungkus">
+  <div class="kunci" id="kunci" role="status" hidden></div>
+
+  <section id="tab-ringkasan" role="tabpanel" aria-labelledby="tab">
+    <div class="kpi" id="kpi"></div>
+    <h2 class="judul-bagian">Peta jalan</h2>
+    <ol class="fase" id="fase-ringkasan"></ol>
+    <h2 class="judul-bagian">Kategori</h2>
+    <ul class="ubin" id="ubin"></ul>
+  </section>
+
+  <section id="tab-linimasa" role="tabpanel" hidden>
+    <h2 class="judul-bagian">Peta jalan tujuh fase</h2>
+    <ol class="fase fase--rinci" id="fase-linimasa"></ol>
+    <h2 class="judul-bagian">Kemajuan per kategori</h2>
+    <div class="tabel-gulir">
+      <table class="tabel" id="tabel-kategori">
+        <caption class="visually-hidden">Kemajuan tiap kategori</caption>
+      </table>
+    </div>
+    <p class="bilah-hint catatan-ukur">Terunggah = berkas di kamar Drive selain INDEKS. Target = baris bernomor terbanyak pada satu lembar INDEKS kamar. "Belum terukur" berarti INDEKS kamar itu belum memuat daftar bernomor.</p>
+  </section>
+
+  <section id="tab-gap" role="tabpanel" hidden>
+    <h2 class="judul-bagian">Gap yang masih terbuka</h2>
+    <div class="saring" id="saring" role="group" aria-label="Saring menurut kategori"></div>
+    <ul class="daftar-gap" id="daftar-gap"><li class="kosong">Memuat…</li></ul>
+    <h2 class="judul-bagian">Peringatan mitigasi</h2>
+    <p class="bilah-hint">Daftar kendali internal: butir yang batas waktunya sudah terlewat, dan yang belum dinilai.</p>
+    <div class="kartu kartu--lebar" id="mitigasi-ringkas"></div>
+    <ul class="daftar-gap" id="daftar-mitigasi"><li class="kosong">Bagian ini terkunci.</li></ul>
+  </section>
+
+  <section id="tab-unggah" role="tabpanel" hidden>
+    <div class="kartu kartu--lebar langkah">
+      <strong>Cara mengunggah</strong>
+      <ol>
+        <li>Buka folder kategori Anda dengan tombol pada kartu di bawah.</li>
+        <li>Bila belum bisa membukanya, pilih <em>Request access</em>; PPK menyetujui sesuai peran.</li>
+        <li>Unggah satu dokumen satu berkas, lalu catat tautannya di berkas INDEKS di folder itu.</li>
+      </ol>
+    </div>
+    <div class="kartu-grid" id="kartu-unggah"></div>
+  </section>
+
+  <section id="tab-lanjut" role="tabpanel" hidden>
+    <div id="isi-lanjut"></div>
+  </section>
+
+  <div class="galat" id="galat" role="alert" hidden></div>
+</main>
+
+<footer class="bawah pembungkus">
+  <p id="catatan-kaki">Halaman ini proyeksi dari register koordinator dan bukan tempat mengubah status.</p>
+</footer>
+
+<script src="assets/app.js" defer></script>
+</body>
+</html>

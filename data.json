@@ -1,0 +1,287 @@
+{
+ "revision": 368,
+ "data": {
+  "hari": "Selasa",
+  "tanggal": "24-11-2026",
+  "jam": "09.33"
+ },
+ "ringkasan": {
+  "fase_aktif": {
+   "no": 1,
+   "nama": "Persiapan",
+   "uraian": "infrastruktur dan dokumen",
+   "mulai": "2026-11-19",
+   "selesai": "2026-11-27",
+   "status": "berjalan",
+   "ket_waktu": null
+  },
+  "tenggat_berikut": {
+   "tanggal": "2026-11-27",
+   "hari": 3,
+   "label": "Dokumen seluruh kategori kumpul"
+  },
+  "gap": {
+   "TINGGI": 17,
+   "SEDANG": 29,
+   "RENDAH": 1,
+   "PERLU_VERIFIKASI": 30
+  },
+  "dokumen": {
+   "terunggah": 13,
+   "terukur_pada": 7,
+   "total_kategori": 12,
+   "dibaca_dari_drive": true
+  }
+ },
+ "kategori": [
+  {
+   "id": "G01",
+   "nama": "Belanja pemeliharaan",
+   "nomor_bpk": "1",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 206,
+    "terukur": true
+   },
+   "gap": {
+    "TINGGI": 3,
+    "SEDANG": 3,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 4
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G02",
+   "nama": "Rekap perjalanan dinas teknis dan umum, termasuk IKH/IKI/IKT",
+   "nomor_bpk": "2, 8",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 13,
+    "target": 450,
+    "terukur": true
+   },
+   "gap": {
+    "TINGGI": 2,
+    "SEDANG": 5,
+    "RENDAH": 1,
+    "PERLU_VERIFIKASI": 4
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G03",
+   "nama": "Pengadaan dan monitoring penyampaian dokumen belanja modal",
+   "nomor_bpk": "3, 15",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 5,
+    "terukur": true
+   },
+   "gap": {
+    "TINGGI": 0,
+    "SEDANG": 0,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 0
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G04",
+   "nama": "Dokumen tindakan pengawasan KH, KI dan KT",
+   "nomor_bpk": "4",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 41,
+    "terukur": true
+   },
+   "gap": {
+    "TINGGI": 3,
+    "SEDANG": 3,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 1
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G05",
+   "nama": "Backup SIMLAB dan klarifikasi Quvera",
+   "nomor_bpk": "5",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 0,
+    "terukur": false
+   },
+   "gap": {
+    "TINGGI": 0,
+    "SEDANG": 0,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 0
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G06",
+   "nama": "Rekapitulasi hasil monitoring produk KH, KI dan KT",
+   "nomor_bpk": "6",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 0,
+    "terukur": false
+   },
+   "gap": {
+    "TINGGI": 1,
+    "SEDANG": 3,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 2
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G07",
+   "nama": "Register laboratorium KH, KI dan KT",
+   "nomor_bpk": "7",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 0,
+    "terukur": false
+   },
+   "gap": {
+    "TINGGI": 2,
+    "SEDANG": 3,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 3
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G08",
+   "nama": "Rekap kegiatan instalasi karantina/tempat lain",
+   "nomor_bpk": "9",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 11,
+    "terukur": true
+   },
+   "gap": {
+    "TINGGI": 1,
+    "SEDANG": 2,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 5
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G09",
+   "nama": "Laporan hasil audit penilaian IKH, IKI dan IKT",
+   "nomor_bpk": "10, 13",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 0,
+    "terukur": false
+   },
+   "gap": {
+    "TINGGI": 1,
+    "SEDANG": 2,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 2
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G10",
+   "nama": "Rekapitulasi rekomendasi IKH, IKI dan IKT",
+   "nomor_bpk": "11, 14",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 3,
+    "terukur": true
+   },
+   "gap": {
+    "TINGGI": 2,
+    "SEDANG": 2,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 2
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G11",
+   "nama": "Pertanggungjawaban belanja 52 dan 53 per item FA Detail",
+   "nomor_bpk": "12",
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 1868,
+    "terukur": true
+   },
+   "gap": {
+    "TINGGI": 1,
+    "SEDANG": 4,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 4
+   },
+   "tenggat": "2026-11-27"
+  },
+  {
+   "id": "G12",
+   "nama": "PNBP",
+   "nomor_bpk": null,
+   "kesiapan": "NOT_ASSESSED",
+   "penyampaian": "UNKNOWN",
+   "penilaian": "NOT_ASSESSED_BY_BPK",
+   "dokumen": {
+    "terunggah": 0,
+    "target": 0,
+    "terukur": false
+   },
+   "gap": {
+    "TINGGI": 1,
+    "SEDANG": 2,
+    "RENDAH": 0,
+    "PERLU_VERIFIKASI": 3
+   },
+   "tenggat": "2026-11-27"
+  }
+ ],
+ "kendali": {
+  "total": 68,
+  "selesai": 0,
+  "belum_dinilai": 68,
+  "lewat_tenggat": 14
+ },
+ "tindak_lanjut": {
+  "tersedia": false
+ }
+}

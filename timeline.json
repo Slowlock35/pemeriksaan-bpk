@@ -1,0 +1,68 @@
+{
+ "revision": 368,
+ "fase": [
+  {
+   "no": 1,
+   "nama": "Persiapan",
+   "uraian": "infrastruktur dan dokumen",
+   "mulai": "2026-11-19",
+   "selesai": "2026-11-27",
+   "status": "berjalan",
+   "ket_waktu": null
+  },
+  {
+   "no": 2,
+   "nama": "Validasi dan perbaikan",
+   "uraian": "penelaahan paket tiap kategori, perbaikan kekurangan, reviu pejabat",
+   "mulai": "2026-11-27",
+   "selesai": "2026-12-04",
+   "status": "direncanakan",
+   "ket_waktu": null
+  },
+  {
+   "no": 3,
+   "nama": "Sinkronisasi ke GDrive BPK",
+   "uraian": "paket final tiap kategori disalin ke folder resmi BPK",
+   "mulai": "2026-12-08",
+   "selesai": null,
+   "status": "direncanakan",
+   "ket_waktu": "Minggu ke-2 Desember"
+  },
+  {
+   "no": 4,
+   "nama": "Pemeriksaan dan klarifikasi",
+   "uraian": "BPK menelaah dokumen, permintaan tambahan, klarifikasi",
+   "mulai": null,
+   "selesai": null,
+   "status": "belum_dijadwalkan",
+   "ket_waktu": null
+  },
+  {
+   "no": 5,
+   "nama": "Tanggapan",
+   "uraian": "draf tanggapan atas temuan, paket, penyampaian",
+   "mulai": null,
+   "selesai": null,
+   "status": "belum_dijadwalkan",
+   "ket_waktu": null
+  },
+  {
+   "no": 6,
+   "nama": "LHP dan tindak lanjut",
+   "uraian": "rekomendasi, aksi, verifikasi, penilaian BPK",
+   "mulai": null,
+   "selesai": null,
+   "status": "belum_dijadwalkan",
+   "ket_waktu": null
+  },
+  {
+   "no": 7,
+   "nama": "Arsip dan penutupan",
+   "uraian": "paket akhir, isu tersisa, retensi, serah terima",
+   "mulai": null,
+   "selesai": null,
+   "status": "belum_dijadwalkan",
+   "ket_waktu": null
+  }
+ ]
+}
