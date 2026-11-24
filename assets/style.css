@@ -317,6 +317,15 @@ main { margin-top: 24px; min-height: 60vh; }
 
 .langkah__judul { display: flex; align-items: center; gap: 8px; font-size: 16px; color: var(--navy); }
 .langkah__judul .ikon { width: 18px; height: 18px; color: var(--teal-kuat); }
+/* pintu masuk unggah di tab Ringkasan */
+.aksi-unggah {
+  display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between;
+  border-left: 5px solid var(--teal);
+}
+.aksi-unggah__ket { color: var(--tinta-2); font-size: 14.5px; margin-top: 2px; }
+.saring--kategori { margin-top: 16px; }
+.kartu-unggah__bawah .bilah-hint { flex-basis: 100%; margin-top: 2px; }
+
 .langkah ol { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
 .langkah li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 10px; align-items: center; color: var(--tinta-2); font-size: 14.5px; }
 .langkah__ikon {
@@ -332,7 +341,7 @@ main { margin-top: 24px; min-height: 60vh; }
 .kartu-unggah dt { display: flex; align-items: center; gap: 6px; color: var(--redup); font-size: 13px; margin-top: 8px; }
 .kartu-unggah dt .ikon { width: 15px; height: 15px; color: var(--teal-kuat); }
 .kartu-unggah dd { margin: 0; color: var(--tinta); }
-.kartu-unggah__bawah { margin-top: auto; padding-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.kartu-unggah__bawah { margin-top: 4px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 
 .tombol {
   appearance: none; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;

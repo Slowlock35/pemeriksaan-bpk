@@ -15,6 +15,7 @@
 
   var NS = "http://www.w3.org/2000/svg";
   var BERKAS_KUNCI = "locked.bin";
+  var KUNCI_SIMPAN = "halaman-bpk.tautan";   // tautan yang tersimpan di peramban setelah berhasil dibuka sekali
   /* Versi bentuk data yang dipahami skrip ini. Harus sama dengan page_modul.BENTUK (Python):
      peramban menyimpan skrip lama, dan skrip lama yang menerima data bentuk baru tampil kacau. */
   var BENTUK = 4;
@@ -259,6 +260,7 @@
     });
   }
   H.renderUlang = renderSemua;      // modul memanggil ini setelah mengubah keadaan tampilan (mis. saringan)
+  H.bukaTab = tampilkanTab;         // modul boleh mengarahkan pengguna ke tab lain (mis. ke Unggah dokumen)
   H.IKON = IKON;
 
   /* ---------- tab ---------- */
@@ -327,8 +329,15 @@
   /* ---------- mulai ---------- */
   function mulai() {
     pasangModul();
-    setKunciPesan(false, "Penanggung jawab, tautan folder, dan rincian gap hanya dapat dibuka lewat tautan khusus dari PPK.");
+    setKunciPesan(false, "Folder kamar dan rincian gap terbuka lewat tautan pada pesan grup WAG. " +
+      "Tekan tautan itu; tautan lain tidak diperlukan.");
+    /* Tautan datang dari pesan WAG. Bila tidak ada (pengguna mengetik alamat biasa), coba tautan yang
+       tersimpan di peramban ini — tersimpan setelah halaman berhasil dibuka sekali dari pesan WAG. */
     var token = new URLSearchParams(window.location.search).get("tok");
+    var dariTautan = !!token;
+    if (!token) {
+      try { token = localStorage.getItem(KUNCI_SIMPAN) || null; } catch (e) { token = null; }
+    }
 
     Promise.all([ambilJson("data.json"), ambilJson("timeline.json")])
       .then(function (hasil) {
@@ -340,7 +349,18 @@
         if (!token) return null;
         return fetch(BERKAS_KUNCI + "?v=" + Date.now(), { cache: "no-store" })
           .then(function (r) { if (!r.ok) throw new Error("berkas terkunci (" + r.status + ")"); return r.arrayBuffer(); })
-          .then(function (buf) { return bukaKunci(token, buf); });
+          .then(function (buf) { return bukaKunci(token, buf); })
+          .then(function (kunci) {
+            /* berhasil dibuka: simpan di peramban ini agar kunjungan berikutnya tak perlu mencari tautan lagi */
+            try { localStorage.setItem(KUNCI_SIMPAN, token); } catch (e) { /* penyimpanan peramban dimatikan: abaikan */ }
+            return kunci;
+          })
+          .catch(function (e) {
+            /* tautan tersimpan sudah tidak berlaku (mis. sudah diganti): buang dan tampilkan seperti pertama kali */
+            if (dariTautan) throw e;
+            try { localStorage.removeItem(KUNCI_SIMPAN); } catch (e2) { /* abaikan */ }
+            return null;
+          });
       })
       .then(function (kunci) {
         if (!kunci) return;
@@ -349,7 +369,8 @@
         $("#kunci").hidden = true;
       })
       .catch(function (e) {
-        if (H.keadaan.data) setKunciPesan(false, "Tautan ini tidak membuka bagian terkunci. Minta tautan khusus terbaru dari PPK.");
+        if (H.keadaan.data) setKunciPesan(false, "Tautan ini tidak membuka folder kamar dan rincian gap. " +
+          "Mohon buka halaman lewat tautan pada pesan grup WAG.");
         else if (String(e.message || e) === "BENTUK") {
           /* skrip di tembolok peramban lebih lama daripada data: minta muat ulang, jangan tampil kacau */
           pita("galat", "Halaman baru saja diperbarui dan versi yang tersimpan di peramban Anda sudah lama. Muat ulang untuk melihat versi terbaru.");

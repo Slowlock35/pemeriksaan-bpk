@@ -9,6 +9,21 @@ Halaman.daftar({
     var d = H.blok("ringkasan");
     var fase = d.fase_aktif || {}, tenggat = d.tenggat_berikut || {}, gap = d.gap || {}, dok = d.dokumen || {};
 
+    /* pintu masuk unggah: pengguna yang datang untuk mengunggah langsung tahu ke mana harus pergi.
+       (Bila tombol folder belum terbuka, pita di atas halaman sudah menjelaskan caranya.) */
+    if (H.kunci("unggah")) {
+      var aksi = H.el("div", "kartu kartu--lebar aksi-unggah");
+      var teks = H.el("div");
+      teks.appendChild(H.el("strong", null, "Ingin mengunggah dokumen?"));
+      teks.appendChild(H.el("div", "aksi-unggah__ket", "Pilih kategori Anda, lalu tekan Buka folder kategori ini."));
+      aksi.appendChild(teks);
+      var tombol = H.el("button", "tombol tombol--utama", "Buka tab Unggah dokumen");
+      tombol.type = "button";
+      tombol.onclick = function () { H.bukaTab("unggah"); };
+      aksi.appendChild(tombol);
+      p.appendChild(aksi);
+    }
+
     /* indikator: ikon di kiri, angka dan keterangan di kanan */
     var kpi = H.el("div", "kpi");
     function kartu(ikon, nada, judul, nilai, cat) {
