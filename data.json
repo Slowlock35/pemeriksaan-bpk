@@ -1,10 +1,10 @@
 {
- "bentuk": 3,
- "revision": 424,
+ "bentuk": 4,
+ "revision": 506,
  "data": {
   "hari": "Selasa",
   "tanggal": "24-11-2026",
-  "jam": "12.27"
+  "jam": "12.35"
  },
  "basis": {
   "kategori": [
@@ -275,42 +275,6 @@
     "PERLU_VERIFIKASI": 26
    },
    "per_kategori": {
-    "G02": {
-     "TINGGI": 2,
-     "SEDANG": 5,
-     "RENDAH": 1,
-     "PERLU_VERIFIKASI": 5
-    },
-    "G07": {
-     "TINGGI": 0,
-     "SEDANG": 5,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 3
-    },
-    "G06": {
-     "TINGGI": 0,
-     "SEDANG": 4,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 2
-    },
-    "G04": {
-     "TINGGI": 1,
-     "SEDANG": 5,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
-    },
-    "G01": {
-     "TINGGI": 5,
-     "SEDANG": 4,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
-    },
-    "G09": {
-     "TINGGI": 0,
-     "SEDANG": 3,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 2
-    },
     "G08": {
      "TINGGI": 0,
      "SEDANG": 3,
@@ -329,11 +293,47 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
+    "G06": {
+     "TINGGI": 0,
+     "SEDANG": 4,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 2
+    },
+    "G02": {
+     "TINGGI": 2,
+     "SEDANG": 5,
+     "RENDAH": 1,
+     "PERLU_VERIFIKASI": 5
+    },
+    "G04": {
+     "TINGGI": 1,
+     "SEDANG": 5,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 1
+    },
+    "G07": {
+     "TINGGI": 0,
+     "SEDANG": 5,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 3
+    },
+    "G01": {
+     "TINGGI": 5,
+     "SEDANG": 4,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 1
+    },
     "G12": {
      "TINGGI": 0,
      "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 3
+    },
+    "G09": {
+     "TINGGI": 0,
+     "SEDANG": 3,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 2
     },
     "G03": {
      "TINGGI": 1,
@@ -347,12 +347,6 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
-   },
-   "kendali": {
-    "total": 68,
-    "selesai": 0,
-    "belum_dinilai": 68,
-    "lewat_tenggat": 14
    }
   },
   "unggah": {},

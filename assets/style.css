@@ -306,17 +306,11 @@ main { margin-top: 24px; min-height: 60vh; }
 .gap__judul { font-weight: 650; color: var(--navy); margin-top: 6px; }
 .gap__meta { display: flex; gap: 7px; font-size: 14px; color: var(--tinta-2); margin-top: 4px; }
 .gap__meta .ikon { width: 16px; height: 16px; color: var(--teal-kuat); margin-top: 3px; }
+.gap__tindakan { font-size: 14.5px; color: var(--tinta-2); margin-top: 6px; }
 .gap__isi > .bilah-hint { margin-top: 6px; }
 
 .gap__kelompok { display: flex; align-items: center; gap: 10px; margin-top: 12px; font-weight: 650; color: var(--navy); font-size: 14.5px; }
 .gap__kelompok:first-child { margin-top: 0; }
-
-/* hitungan daftar kendali */
-.kendali { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px 14px; }
-.kendali__baris { display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 11px; align-items: center; font-size: 14.5px; }
-.kendali__baris .kpi__ikon { width: 36px; height: 36px; border-radius: 10px; }
-.kendali__baris .kpi__ikon .ikon { width: 18px; height: 18px; }
-.kendali__petunjuk { grid-column: 1 / -1; margin-top: 6px; }
 
 /* ---------- unggah ---------- */
 .kartu-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 18px; }
@@ -371,7 +365,6 @@ main { margin-top: 24px; min-height: 60vh; }
   .fase { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .ubin { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .kartu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .kendali { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 /* ponsel dan tablet (sentuhan): tab menjadi bilah tetap di bawah */
@@ -405,7 +398,6 @@ main { margin-top: 24px; min-height: 60vh; }
   .kpi { gap: 8px; }
   .kpi__nilai { font-size: 24px; }
   .gap { padding: 12px 12px 12px 10px; gap: 10px; }
-  .kendali { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
   /* tabel kemajuan menjadi kartu: judul kolom dipakai sebagai label (data-label) */
   .tabel-gulir { overflow: visible; background: transparent; border: 0; box-shadow: none; }

@@ -17,7 +17,7 @@
   var BERKAS_KUNCI = "locked.bin";
   /* Versi bentuk data yang dipahami skrip ini. Harus sama dengan page_modul.BENTUK (Python):
      peramban menyimpan skrip lama, dan skrip lama yang menerima data bentuk baru tampil kacau. */
-  var BENTUK = 3;
+  var BENTUK = 4;
   var TINGKAT = ["TINGGI", "SEDANG", "RENDAH", "PERLU_VERIFIKASI"];
   var BULAN = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
 
@@ -133,6 +133,12 @@
     return bagian;
   }
 
+  /* Ringkasan untuk tim: kalimat pertama = keadaan, sisanya = tindakan / penangguhan keputusan. */
+  function pecahRingkasan(t) {
+    var i = t.indexOf(". ");
+    return i < 0 ? { keadaan: t, tindakan: "" } : { keadaan: t.slice(0, i + 1), tindakan: t.slice(i + 2) };
+  }
+
   function ambilJson(url) {
     return fetch(url + "?v=" + Date.now(), { cache: "no-store" }).then(function (r) {
       if (!r.ok) throw new Error(url + " (" + r.status + ")");
@@ -192,7 +198,7 @@
     /* alat bantu untuk modul */
     el: el, ikon: ikon, ribuan: ribuan, tgl: tgl, label: label, judul: judul, kosong: kosong, sel: sel,
     stikel: stikel, stikelTingkat: stikelTingkat, kartuFase: kartuFase, jumlahGap: jumlahGap,
-    rincianGap: rincianGap, namaKategori: namaKategori, nadaKesiapan: nadaKesiapan, teksDokumen: teksDokumen,
+    rincianGap: rincianGap, namaKategori: namaKategori, nadaKesiapan: nadaKesiapan, teksDokumen: teksDokumen, pecahRingkasan: pecahRingkasan,
     tingkat: TINGKAT,
     daftar: function (m) { H.modul.push(m); return m; },
     blok: function (id) { return ((H.keadaan.data && H.keadaan.data.modul) || {})[id] || {}; },
