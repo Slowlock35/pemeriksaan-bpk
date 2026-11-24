@@ -1,9 +1,9 @@
 {
- "revision": 368,
+ "revision": 369,
  "data": {
   "hari": "Selasa",
   "tanggal": "24-11-2026",
-  "jam": "09.33"
+  "jam": "09.47"
  },
  "ringkasan": {
   "fase_aktif": {
@@ -83,7 +83,7 @@
    "penilaian": "NOT_ASSESSED_BY_BPK",
    "dokumen": {
     "terunggah": 0,
-    "target": 5,
+    "target": 115,
     "terukur": true
    },
    "gap": {
