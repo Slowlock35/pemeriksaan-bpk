@@ -1,10 +1,10 @@
 {
  "bentuk": 4,
- "revision": 593,
+ "revision": 684,
  "data": {
   "hari": "Selasa",
   "tanggal": "24-11-2026",
-  "jam": "19.14"
+  "jam": "19.38"
  },
  "basis": {
   "kategori": [
@@ -35,8 +35,8 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 33,
-     "baris_indeks": 162
+     "terunggah": 74,
+     "baris_indeks": 1591
     },
     "tenggat": "2026-11-27",
     "gap": {
@@ -54,8 +54,8 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 0,
-     "baris_indeks": 115
+     "terunggah": 6,
+     "baris_indeks": 116
     },
     "tenggat": "2026-11-27",
     "gap": {
@@ -74,7 +74,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 0,
-     "baris_indeks": 41
+     "baris_indeks": 0
     },
     "tenggat": "2026-11-27",
     "gap": {
@@ -150,7 +150,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 1,
-     "baris_indeks": 11
+     "baris_indeks": 0
     },
     "tenggat": "2026-11-27",
     "gap": {
@@ -188,7 +188,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 3,
-     "baris_indeks": 3
+     "baris_indeks": 0
     },
     "tenggat": "2026-11-27",
     "gap": {
@@ -261,8 +261,8 @@
     "PERLU_VERIFIKASI": 26
    },
    "dokumen": {
-    "terunggah": 46,
-    "kamar_berisi": 5,
+    "terunggah": 93,
+    "kamar_berisi": 6,
     "total_kategori": 12,
     "dibaca_dari_drive": true
    }

@@ -1,7 +1,8 @@
 /* Modul Unggah dokumen — View.
  * Model terbuka: basis.kategori di data.json (kemajuan, tenggat).
  * Model terkunci (locked.bin -> modul.unggah): penanggung jawab, PIC bidang terkait, penelaah, dan
- * tombol folder Drive per kategori. Tautan folder hanya muncul sebagai tombol di sini.
+ * tombol folder Drive per kategori, dan tombol folder induk (kembali ke Google Drive). Tautan folder hanya
+ * muncul sebagai tombol di sini dan di kepala halaman.
  * Jalur pengguna dibuat sesingkat mungkin: pilih kategorinya → tekan satu tombol → tiba di folder. */
 Halaman.daftar({
   id: "unggah",
@@ -36,6 +37,23 @@ Halaman.daftar({
     });
     cara.appendChild(ol);
     p.appendChild(cara);
+
+    /* 1b) kembali ke Google Drive: folder induk yang memuat seluruh kamar kategori */
+    var folderUtama = ((H.kunci("unggah") || {}).folder_utama || {}).folder_url;
+    if (folderUtama) {
+      var kembali = H.el("div", "kartu kartu--lebar aksi-unggah");
+      var ket = H.el("div");
+      ket.appendChild(H.el("strong", null, "Kembali ke Google Drive"));
+      ket.appendChild(H.el("div", "aksi-unggah__ket", "Folder induk berisi seluruh kamar kategori."));
+      kembali.appendChild(ket);
+      var ka = H.el("a", "tombol tombol--sekunder", "Buka folder utama");
+      ka.href = folderUtama;
+      ka.target = "_blank";
+      ka.rel = "noopener noreferrer";
+      ka.appendChild(H.ikon("buka"));
+      kembali.appendChild(ka);
+      p.appendChild(kembali);
+    }
 
     /* 2) pemilih kategori: satu sentuhan untuk menampilkan kamar sendiri saja */
     var terkunci = {}, dibaca = (H.blok("ringkasan").dokumen || {}).dibaca_dari_drive !== false;

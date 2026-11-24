@@ -108,6 +108,10 @@ button { font: inherit; }
   padding: 6px 12px; border-radius: 999px; white-space: nowrap;
 }
 
+/* tombol kembali ke Google Drive di kepala halaman: hanya tampil setelah bagian terkunci terbuka */
+.atas__kanan { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+.atas__drive { white-space: nowrap; box-shadow: 0 2px 10px rgba(0, 0, 0, .18); }
+
 /* ---------- tab ----------
    Layar lebar: pil di dalam kepala halaman. Ponsel dan tablet (≤900px): bilah tetap di bawah,
    ikon di atas label, mudah dijangkau ibu jari. Tab dibangun inti.js dari daftar modul. */
@@ -415,6 +419,8 @@ main { margin-top: 24px; min-height: 60vh; }
   body { font-size: 15px; }
   .pembungkus { width: min(100% - 24px, var(--lebar)); }
   .atas__bar { align-items: flex-start; flex-direction: column; padding-top: 20px; }
+  .atas__kanan { align-items: flex-start; width: 100%; }
+  .atas__drive { text-align: center; }
   .sinkron { white-space: normal; }
   .fase, .fase--rinci { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .ubin { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }

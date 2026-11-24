@@ -233,7 +233,7 @@
     s.appendChild(document.createTextNode("Data per " + (teks || "—")));
     $("#catatan-kaki").textContent = "Halaman ini untuk memantau dan menilai kemajuan; bukan tempat mengubah status. " +
       (teks ? "Data terakhir diperbarui " + teks + " (revisi data " + d.revision + "). " : "") +
-      "Jumlah berkas di kamar dibaca dari Google Drive saat halaman diperbarui.";
+      "Jumlah berkas di kamar dan baris INDEKS dibaca dari Google Drive saat halaman diperbarui.";
   }
 
   /* Teks berkas untuk satu kategori: hitungan fakta saja, tanpa persen — satu baris INDEKS belum
@@ -377,6 +377,12 @@
         H.keadaan.kunci = kunci;
         renderSemua();
         $("#kunci").hidden = true;
+        /* tombol kembali ke Google Drive (folder induk): alamatnya ada di bagian terkunci */
+        var tautanDrive = ((kunci.unggah || {}).folder_utama || {}).folder_url, bukaDrive = $("#buka-drive");
+        if (tautanDrive) {
+          bukaDrive.href = tautanDrive;
+          bukaDrive.hidden = false;
+        }
       })
       .catch(function (e) {
         if (H.keadaan.data) setKunciPesan(false, "Tautan ini tidak membuka folder kamar dan rincian gap. " +
