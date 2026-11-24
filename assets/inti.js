@@ -329,8 +329,11 @@
   /* ---------- mulai ---------- */
   function mulai() {
     pasangModul();
-    setKunciPesan(false, "Folder kamar dan rincian gap terbuka lewat tautan pada pesan grup WAG. " +
-      "Tekan tautan itu; tautan lain tidak diperlukan.");
+    /* ditulis untuk orang yang membuka halaman dari alamat polos: ia harus tahu tautan yang
+       ditekannya bukan tautan yang membuka (24 Nov: alamat polos ikut dibagikan di grup) */
+    setKunciPesan(false, "Folder kamar dan rincian gap terbuka lewat tautan pada pesan pengumuman rilis " +
+      "halaman ini di grup WAG. Tautan yang dibuka sekarang belum membawa kunci akses; mohon cari pesan itu, " +
+      "lalu tekan tautannya.");
     /* Tautan datang dari pesan WAG. Bila tidak ada (pengguna mengetik alamat biasa), coba tautan yang
        tersimpan di peramban ini — tersimpan setelah halaman berhasil dibuka sekali dari pesan WAG. */
     var token = new URLSearchParams(window.location.search).get("tok");
