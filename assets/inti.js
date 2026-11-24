@@ -1,4 +1,4 @@
-/* Pengendalian Pemeriksaan BPK — inti halaman (Controller).
+/* Monitoring Evaluasi Pemeriksaan BPK — inti halaman (Controller).
  *
  * Arsitektur MVC (docs/page/rancangan-modular-dmaic.md):
  *   Model       data.json, timeline.json, locked.bin — dibangun dari register oleh
@@ -17,7 +17,7 @@
   var BERKAS_KUNCI = "locked.bin";
   /* Versi bentuk data yang dipahami skrip ini. Harus sama dengan page_modul.BENTUK (Python):
      peramban menyimpan skrip lama, dan skrip lama yang menerima data bentuk baru tampil kacau. */
-  var BENTUK = 2;
+  var BENTUK = 3;
   var TINGKAT = ["TINGGI", "SEDANG", "RENDAH", "PERLU_VERIFIKASI"];
   var BULAN = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
 
@@ -192,7 +192,7 @@
     /* alat bantu untuk modul */
     el: el, ikon: ikon, ribuan: ribuan, tgl: tgl, label: label, judul: judul, kosong: kosong, sel: sel,
     stikel: stikel, stikelTingkat: stikelTingkat, kartuFase: kartuFase, jumlahGap: jumlahGap,
-    rincianGap: rincianGap, namaKategori: namaKategori, nadaKesiapan: nadaKesiapan,
+    rincianGap: rincianGap, namaKategori: namaKategori, nadaKesiapan: nadaKesiapan, teksDokumen: teksDokumen,
     tingkat: TINGKAT,
     daftar: function (m) { H.modul.push(m); return m; },
     blok: function (id) { return ((H.keadaan.data && H.keadaan.data.modul) || {})[id] || {}; },
@@ -218,14 +218,24 @@
 
   function renderKepala() {
     var d = H.keadaan.data || {}, w = d.data || {};
-    var teks = w.jam ? w.hari + ", " + w.tanggal + " · " + w.jam + " WITA" : "belum tersedia";
+    var teks = w.jam ? w.hari + ", " + w.tanggal + " · " + w.jam + " WITA" : null;
     var s = $("#sinkron");
     s.textContent = "";
     s.appendChild(ikon("segarkan"));
-    s.appendChild(document.createTextNode(" Revisi " + d.revision + " · " + teks));
-    $("#catatan-kaki").textContent = "Halaman ini proyeksi dari register koordinator (revisi " + d.revision +
-      ", data terakhir berubah " + teks + ") dan bukan tempat mengubah status. " +
-      "Jumlah dokumen terunggah dibaca dari Google Drive saat halaman disinkronkan.";
+    /* "Data per …" — nomor revisi register adalah urusan koordinator, hanya di kaki halaman */
+    s.appendChild(document.createTextNode(" Data per " + (teks || "—")));
+    $("#catatan-kaki").textContent = "Halaman ini untuk memantau dan menilai kemajuan; bukan tempat mengubah status. " +
+      (teks ? "Data terakhir diperbarui " + teks + " (revisi data " + d.revision + "). " : "") +
+      "Jumlah berkas di kamar dibaca dari Google Drive saat halaman diperbarui.";
+  }
+
+  /* Teks berkas untuk satu kategori: hitungan fakta saja, tanpa persen — satu baris INDEKS belum
+     tentu satu berkas (G03: satu baris = satu paket; G08: satu baris = satu bulan). */
+  function teksDokumen(d, dibaca) {
+    if (!dibaca) return "belum terbaca dari Drive";
+    d = d || {};
+    var t = ribuan(d.terunggah || 0) + " berkas di kamar";
+    return t + (d.baris_indeks ? " · INDEKS " + ribuan(d.baris_indeks) + " baris" : " · INDEKS belum memuat daftar");
   }
 
   function renderSemua() {
@@ -311,7 +321,7 @@
   /* ---------- mulai ---------- */
   function mulai() {
     pasangModul();
-    setKunciPesan(false, "Penanggung jawab, tautan folder, dan rincian gap hanya dapat dibuka lewat tautan bertoken dari PPK.");
+    setKunciPesan(false, "Penanggung jawab, tautan folder, dan rincian gap hanya dapat dibuka lewat tautan khusus dari PPK.");
     var token = new URLSearchParams(window.location.search).get("tok");
 
     Promise.all([ambilJson("data.json"), ambilJson("timeline.json")])
@@ -333,7 +343,7 @@
         $("#kunci").hidden = true;
       })
       .catch(function (e) {
-        if (H.keadaan.data) setKunciPesan(false, "Tautan ini tidak membuka bagian terkunci. Gunakan tautan bertoken terbaru dari PPK.");
+        if (H.keadaan.data) setKunciPesan(false, "Tautan ini tidak membuka bagian terkunci. Minta tautan khusus terbaru dari PPK.");
         else if (String(e.message || e) === "BENTUK") {
           /* skrip di tembolok peramban lebih lama daripada data: minta muat ulang, jangan tampil kacau */
           pita("galat", "Halaman baru saja diperbarui dan versi yang tersimpan di peramban Anda sudah lama. Muat ulang untuk melihat versi terbaru.");

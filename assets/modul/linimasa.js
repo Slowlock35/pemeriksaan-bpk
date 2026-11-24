@@ -19,7 +19,7 @@ Halaman.daftar({
     var cap = H.el("caption", "visually-hidden", "Kemajuan tiap kategori");
     t.appendChild(cap);
     var hr = H.el("tr");
-    ["Kategori", "Kesiapan", "Penyampaian", "Penilaian BPK", "Dokumen", "Gap terbuka", "Tenggat"].forEach(function (h) {
+    ["Kategori", "Kesiapan", "Penyampaian", "Penilaian BPK", "Berkas di kamar", "Gap terbuka", "Tenggat"].forEach(function (h) {
       var th = H.el("th", null, h);
       th.scope = "col";
       hr.appendChild(th);
@@ -30,21 +30,7 @@ Halaman.daftar({
     var badan = H.el("tbody");
 
     function selDokumen(k) {
-      var kotak = H.el("div"), d = k.dokumen || {};
-      if (!dibaca) {                       // Drive tidak terbaca: tidak menampilkan 0 seolah hasil ukur
-        kotak.appendChild(H.el("span", "bilah-hint", d.terukur
-          ? "belum terbaca dari Drive · target " + H.ribuan(d.target) + " berkas" : "belum terbaca dari Drive"));
-      } else if (d.terukur) {
-        var target = d.target || 0, naik = d.terunggah || 0, persen = target ? Math.round(100 * naik / target) : 0;
-        var bar = H.el("div", "bilah"), isi = H.el("div", "bilah__isi");
-        isi.style.width = Math.min(100, persen) + "%";
-        bar.appendChild(isi);
-        kotak.appendChild(bar);
-        kotak.appendChild(H.el("small", null, H.ribuan(naik) + " dari " + H.ribuan(target) + " berkas · " + persen + "%"));
-      } else {
-        kotak.appendChild(H.el("span", "bilah-hint", "belum terukur · " + (d.terunggah || 0) + " berkas"));
-      }
-      return H.sel(kotak, "angka", "Dokumen");
+      return H.sel(H.el("div", null, H.teksDokumen(k.dokumen, dibaca)), "", "Berkas di kamar");
     }
 
     H.kategori().forEach(function (k) {
@@ -69,9 +55,9 @@ Halaman.daftar({
 
     var catatan = H.el("p", "bilah-hint catatan-ukur");
     catatan.appendChild(H.ikon("info"));
-    catatan.appendChild(document.createTextNode(" Terunggah = berkas di kamar Drive selain INDEKS. " +
-      "Target = baris bernomor terbanyak pada satu lembar INDEKS kamar. \"Belum terukur\" berarti INDEKS " +
-      "kamar itu belum memuat daftar bernomor."));
+    catatan.appendChild(document.createTextNode(" Berkas di kamar = berkas pada folder Drive kategori selain INDEKS. " +
+      "Baris INDEKS = banyaknya baris daftar pada INDEKS kamar. Satu baris belum tentu satu berkas, " +
+      "karena itu kemajuan tidak dihitung persen."));
     p.appendChild(catatan);
   }
 });

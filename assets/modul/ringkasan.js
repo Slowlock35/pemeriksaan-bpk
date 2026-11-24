@@ -27,10 +27,9 @@ Halaman.daftar({
           tenggat.label || "tidak ada tenggat bertanggal");
     kartu("perisai", "merah", "Gap terbuka", String(H.jumlahGap(gap)),
           (gap.TINGGI || 0) + " tinggi · " + (gap.SEDANG || 0) + " sedang");
-    kartu("map", "navy", "Dokumen terunggah", dok.dibaca_dari_drive === false ? "—" : String(dok.terunggah || 0),
+    kartu("map", "navy", "Berkas di kamar Drive", dok.dibaca_dari_drive === false ? "—" : String(dok.terunggah || 0),
           dok.dibaca_dari_drive === false ? "belum terbaca dari Drive"
-            : "berkas di kamar Drive · target terukur pada " + (dok.terukur_pada || 0) + " dari " +
-              (dok.total_kategori || 0) + " kategori");
+            : (dok.kamar_berisi || 0) + " dari " + (dok.total_kategori || 0) + " kategori sudah berisi berkas");
     p.appendChild(kpi);
 
     p.appendChild(H.judul("Peta jalan", "jalur"));

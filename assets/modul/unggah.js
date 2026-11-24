@@ -49,13 +49,11 @@ Halaman.daftar({
         dl.appendChild(dt);
         dl.appendChild(H.el("dd", null, isi));
       }
-      baris("berkas", "Dokumen", !dibaca ? "belum terbaca dari Drive"
-        : dkk.terukur ? H.ribuan(dkk.terunggah || 0) + " dari " + H.ribuan(dkk.target || 0) + " berkas"
-                      : (dkk.terunggah || 0) + " berkas · target belum terukur");
+      baris("berkas", "Berkas di kamar", H.teksDokumen(dkk, dibaca));
       baris("kalender", "Tenggat", H.tgl(k.tenggat));
-      baris("orang", "Penanggung jawab", buka ? (x.penanggung_jawab || "belum ditetapkan di register") : "terkunci");
-      baris("tim", "PIC bidang terkait", buka ? ((x.pic_bidang || []).join(", ") || "belum dipetakan") : "terkunci");
-      baris("mata", "Menelaah", buka ? ((x.penelaah || []).join(", ") || "PPK") : "terkunci");
+      baris("orang", "Penanggung jawab", buka ? (x.penanggung_jawab || "belum ditetapkan") : "belum terbuka");
+      baris("tim", "PIC bidang terkait", buka ? ((x.pic_bidang || []).join(", ") || "belum dipetakan") : "belum terbuka");
+      baris("mata", "Menelaah", buka ? ((x.penelaah || []).join(", ") || "PPK") : "belum terbuka");
       c.appendChild(dl);
 
       var bw = H.el("div", "kartu-unggah__bawah");
@@ -68,7 +66,7 @@ Halaman.daftar({
         a.appendChild(document.createTextNode(" Buka folder kategori ini"));
         bw.appendChild(a);
       } else {
-        var b = H.el("button", "tombol tombol--sekunder", buka ? "Tautan folder belum tersedia" : "Terkunci · butuh tautan bertoken");
+        var b = H.el("button", "tombol tombol--sekunder", buka ? "Tautan folder belum tersedia" : "Belum terbuka · butuh tautan khusus");
         b.type = "button";
         b.disabled = true;
         bw.appendChild(b);

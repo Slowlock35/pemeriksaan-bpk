@@ -1,4 +1,4 @@
-/* Pengendalian Pemeriksaan BPK — gaya halaman (View).
+/* Monitoring Evaluasi Pemeriksaan BPK — gaya halaman (View).
  * Tema terang navy dan teal, tanpa CDN, huruf sistem.
  * Urutan bagian: dasar · kepala dan tab · ikon · kartu dan status · ringkasan · lini masa ·
  * gap · unggah · tindak lanjut · kaki · responsif.
@@ -109,7 +109,7 @@ button { font: inherit; }
 }
 
 /* ---------- tab ----------
-   Layar lebar: pil di dalam kepala halaman. Ponsel (≤760px): bilah tetap di bawah,
+   Layar lebar: pil di dalam kepala halaman. Ponsel dan tablet (≤900px): bilah tetap di bawah,
    ikon di atas label, mudah dijangkau ibu jari. Tab dibangun inti.js dari daftar modul. */
 .tabs {
   display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none;
@@ -265,13 +265,9 @@ main { margin-top: 24px; min-height: 60vh; }
 .tabel tbody tr:last-child td { border-bottom: 0; }
 .tabel tbody tr:hover { background: #f7fafc; }
 .tabel .angka { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
-.tabel .angka small { white-space: normal; }
 .tabel .kode { font-weight: 750; color: var(--teal-kuat); white-space: nowrap; }
 .tabel td .kode { display: inline-block; margin-bottom: 2px; }
 
-.bilah { height: 8px; border-radius: 999px; background: #e8edf3; overflow: hidden; min-width: 90px; }
-.bilah__isi { height: 100%; background: linear-gradient(90deg, var(--teal), #17b3a3); border-radius: 999px; }
-.bilah small { font-size: 12.5px; color: var(--redup); display: block; margin-top: 4px; font-variant-numeric: tabular-nums; }
 
 .catatan-ukur { margin: 10px 2px 0; }
 

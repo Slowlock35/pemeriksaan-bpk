@@ -15,7 +15,7 @@ Halaman.daftar({
     if (!H.kunci("gap")) {
       var ringkas = H.el("div", "kartu kartu--lebar");
       ringkas.appendChild(H.el("div", "gap__meta", "Total: " + H.jumlahGap(total) + " gap · " +
-        H.rincianGap(total).join(", ") + ". Rinciannya terkunci."));
+        H.rincianGap(total).join(", ") + ". Rincianya hanya terbuka lewat tautan khusus."));
       p.appendChild(ringkas);
     } else {
       var chip = H.el("div", "saring");
