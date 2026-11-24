@@ -1,10 +1,10 @@
 {
  "bentuk": 2,
- "revision": 385,
+ "revision": 404,
  "data": {
   "hari": "Selasa",
   "tanggal": "24-11-2026",
-  "jam": "10.25"
+  "jam": "11.33"
  },
  "basis": {
   "kategori": [
@@ -22,10 +22,10 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 3,
-     "SEDANG": 3,
+     "TINGGI": 5,
+     "SEDANG": 4,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 4
+     "PERLU_VERIFIKASI": 1
     }
    },
    {
@@ -82,8 +82,8 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 3,
-     "SEDANG": 3,
+     "TINGGI": 1,
+     "SEDANG": 5,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     }
@@ -122,8 +122,8 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 1,
-     "SEDANG": 3,
+     "TINGGI": 0,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 2
     }
@@ -142,8 +142,8 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 2,
-     "SEDANG": 3,
+     "TINGGI": 0,
+     "SEDANG": 5,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 3
     }
@@ -162,8 +162,8 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 1,
-     "SEDANG": 2,
+     "TINGGI": 0,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 5
     }
@@ -182,8 +182,8 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 1,
-     "SEDANG": 2,
+     "TINGGI": 0,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 2
     }
@@ -202,8 +202,8 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 2,
-     "SEDANG": 2,
+     "TINGGI": 0,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 2
     }
@@ -222,10 +222,10 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 1,
-     "SEDANG": 4,
+     "TINGGI": 2,
+     "SEDANG": 6,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 4
+     "PERLU_VERIFIKASI": 1
     }
    },
    {
@@ -242,8 +242,8 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 1,
-     "SEDANG": 2,
+     "TINGGI": 0,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 3
     }
@@ -267,10 +267,10 @@
     "label": "Dokumen seluruh kategori kumpul"
    },
    "gap": {
-    "TINGGI": 18,
-    "SEDANG": 30,
+    "TINGGI": 11,
+    "SEDANG": 43,
     "RENDAH": 1,
-    "PERLU_VERIFIKASI": 31
+    "PERLU_VERIFIKASI": 25
    },
    "dokumen": {
     "terunggah": 13,
@@ -281,10 +281,10 @@
   },
   "gap": {
    "total": {
-    "TINGGI": 18,
-    "SEDANG": 30,
+    "TINGGI": 11,
+    "SEDANG": 43,
     "RENDAH": 1,
-    "PERLU_VERIFIKASI": 31
+    "PERLU_VERIFIKASI": 25
    },
    "per_kategori": {
     "G02": {
@@ -294,56 +294,56 @@
      "PERLU_VERIFIKASI": 4
     },
     "G07": {
-     "TINGGI": 2,
-     "SEDANG": 3,
+     "TINGGI": 0,
+     "SEDANG": 5,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 3
     },
     "G06": {
-     "TINGGI": 1,
-     "SEDANG": 3,
+     "TINGGI": 0,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 2
     },
-    "G01": {
-     "TINGGI": 3,
-     "SEDANG": 3,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 4
-    },
     "G04": {
-     "TINGGI": 3,
-     "SEDANG": 3,
+     "TINGGI": 1,
+     "SEDANG": 5,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 1
+    },
+    "G01": {
+     "TINGGI": 5,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
     "G09": {
-     "TINGGI": 1,
-     "SEDANG": 2,
+     "TINGGI": 0,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 2
     },
     "G08": {
-     "TINGGI": 1,
-     "SEDANG": 2,
+     "TINGGI": 0,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 5
     },
     "G10": {
-     "TINGGI": 2,
-     "SEDANG": 2,
+     "TINGGI": 0,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 2
     },
     "G11": {
-     "TINGGI": 1,
-     "SEDANG": 4,
+     "TINGGI": 2,
+     "SEDANG": 6,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 4
+     "PERLU_VERIFIKASI": 1
     },
     "G12": {
-     "TINGGI": 1,
-     "SEDANG": 2,
+     "TINGGI": 0,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 3
     },
