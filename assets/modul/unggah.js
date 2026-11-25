@@ -121,13 +121,15 @@ Halaman.daftar({
       /* SSOT pemetaan gap berbasis risiko kamar (bila ada): ringkasan tingkat dari berkas SSOT di kamar —
          bukan hitungan bukti, dan bukan persen (satu baris SSOT belum tentu satu dokumen) */
       if (k.ssot_risiko && k.ssot_risiko.baris && k.ssot_risiko.baris.length) {
-        baris("buka", "SSOT risiko kamar", k.ssot_risiko.baris.map(function (r) {
+        var tampil = k.ssot_risiko.baris.slice(0, 3).map(function (r) {
           var teks = r[0] + ": " + (r[1] == null ? "?" : r[1]) + " Tinggi";
           if (r[5] != null) teks += " dari " + r[5];
           if (r[2]) teks += " · " + r[2] + " Sedang";
           if (r[4]) teks += " · " + r[4] + " perlu verifikasi";
           return teks;
-        }).join("; "));
+        });
+        if (k.ssot_risiko.baris.length > 3) tampil.push("dan " + (k.ssot_risiko.baris.length - 3) + " baris lain di berkas SSOT kamar");
+        baris("buka", "SSOT risiko kamar", tampil.join("; "));
       }
       baris("kalender", "Tenggat", H.tgl(k.tenggat));
       /* siapa mengerjakan apa: PJ (penanggung jawab), anggota/operator, validator checklist —
