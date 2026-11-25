@@ -149,7 +149,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 1,
+     "terunggah": 2,
      "baris_indeks": 28
     },
     "tenggat": "2026-11-27",
@@ -300,7 +300,7 @@
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 586,
+    "terunggah": 587,
     "kamar_berisi": 11,
     "total_kategori": 14,
     "dibaca_dari_drive": true
