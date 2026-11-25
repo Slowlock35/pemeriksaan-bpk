@@ -1,10 +1,10 @@
 {
  "bentuk": 5,
- "revision": 1745,
+ "revision": 1750,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "11.17"
+  "jam": "11.20"
  },
  "basis": {
   "kategori": [
@@ -211,7 +211,7 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 4,
+     "TINGGI": 5,
      "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
@@ -294,7 +294,7 @@
     "label": "Dokumen seluruh kategori kumpul"
    },
    "gap": {
-    "TINGGI": 18,
+    "TINGGI": 19,
     "SEDANG": 33,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 6
@@ -308,7 +308,7 @@
   },
   "gap": {
    "total": {
-    "TINGGI": 18,
+    "TINGGI": 19,
     "SEDANG": 33,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 6
@@ -387,7 +387,7 @@
      "PERLU_VERIFIKASI": 0
     },
     "G11": {
-     "TINGGI": 4,
+     "TINGGI": 5,
      "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
