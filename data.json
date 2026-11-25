@@ -1,10 +1,10 @@
 {
  "bentuk": 5,
- "revision": 2006,
+ "revision": 2027,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "13.21"
+  "jam": "13.24"
  },
  "basis": {
   "kategori": [
@@ -98,9 +98,9 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 0,
+     "SEDANG": 2,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 1
     }
    },
    {
@@ -295,9 +295,9 @@
    },
    "gap": {
     "TINGGI": 20,
-    "SEDANG": 35,
+    "SEDANG": 37,
     "RENDAH": 0,
-    "PERLU_VERIFIKASI": 7
+    "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
     "terunggah": 581,
@@ -309,9 +309,9 @@
   "gap": {
    "total": {
     "TINGGI": 20,
-    "SEDANG": 35,
+    "SEDANG": 37,
     "RENDAH": 0,
-    "PERLU_VERIFIKASI": 7
+    "PERLU_VERIFIKASI": 8
    },
    "per_kategori": {
     "G06": {
@@ -347,6 +347,12 @@
     "G08": {
      "TINGGI": 0,
      "SEDANG": 1,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 1
+    },
+    "G05": {
+     "TINGGI": 0,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
@@ -400,12 +406,12 @@
     }
    },
    "ditunda": {
-    "jumlah": 36,
+    "jumlah": 38,
     "tingkat": {
      "TINGGI": 0,
      "SEDANG": 12,
      "RENDAH": 1,
-     "PERLU_VERIFIKASI": 23
+     "PERLU_VERIFIKASI": 25
     },
     "fase": 2
    }
