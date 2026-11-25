@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2149,
+ "revision": 2152,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "14.49"
+  "jam": "15.07"
  },
  "basis": {
   "kategori": [
@@ -415,7 +415,35 @@
      "terunggah": 1,
      "baris_indeks": 119
     },
-    "ssot_risiko": null,
+    "ssot_risiko": {
+     "berkas": "SSOT_G08_INSTALASI_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
+     "baris": [
+      [
+       "LOKASI (semua KH)",
+       0,
+       6,
+       0,
+       0,
+       6
+      ],
+      [
+       "BULAN (Jan–Nov 2026)",
+       0,
+       10,
+       0,
+       1,
+       11
+      ],
+      [
+       "BIDANG (KH, KI, KT)",
+       0,
+       3,
+       0,
+       0,
+       3
+      ]
+     ]
+    },
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
@@ -668,7 +696,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 27,
+     "terunggah": 28,
      "baris_indeks": 0
     },
     "ssot_risiko": null,
@@ -739,7 +767,43 @@
      "terunggah": 13,
      "baris_indeks": 9
     },
-    "ssot_risiko": null,
+    "ssot_risiko": {
+     "berkas": "SSOT_G14_BMN_PERSEDIAAN_GAP-RISIKO_2026_SULUT_v1.xlsx",
+     "baris": [
+      [
+       "BMN (butir 1-3: CALBMN, inventarisasi, SK kendaraan)",
+       0,
+       3,
+       0,
+       0,
+       3
+      ],
+      [
+       "Persediaan (butir 4-6: opname, kartu, bon)",
+       0,
+       1,
+       0,
+       2,
+       3
+      ],
+      [
+       "Bahan laboratorium KH/KI/KT (butir 7)",
+       0,
+       3,
+       0,
+       0,
+       3
+      ],
+      [
+       "JUMLAH",
+       0,
+       7,
+       0,
+       2,
+       9
+      ]
+     ]
+    },
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
@@ -774,7 +838,7 @@
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 609,
+    "terunggah": 610,
     "kamar_berisi": 10,
     "total_kategori": 14,
     "dibaca_dari_drive": true
