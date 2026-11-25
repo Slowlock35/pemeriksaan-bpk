@@ -699,7 +699,27 @@
      "terunggah": 28,
      "baris_indeks": 0
     },
-    "ssot_risiko": null,
+    "ssot_risiko": {
+     "berkas": "SSOT_G12_PNBP_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
+     "baris": [
+      [
+       "PENGUMPULAN DOKUMEN · keberadaan berkas di kamar dan INDEKS (fase 1)",
+       0,
+       4,
+       0,
+       0,
+       4
+      ],
+      [
+       "CAKUPAN & TENGGAT · dikerjakan di Fase 2 Validasi dan Perbaikan",
+       0,
+       0,
+       0,
+       3,
+       3
+      ]
+     ]
+    },
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
