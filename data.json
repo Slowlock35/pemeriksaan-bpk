@@ -1,10 +1,10 @@
 {
  "bentuk": 5,
- "revision": 1651,
+ "revision": 1658,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "10.27"
+  "jam": "10.30"
  },
  "basis": {
   "kategori": [
@@ -207,7 +207,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 335,
-     "baris_indeks": 3999
+     "baris_indeks": 4305
     },
     "tenggat": "2026-11-27",
     "gap": {

@@ -21,7 +21,7 @@ Halaman.daftar({
     var ol = H.el("ol");
     var langkah = buka ? [
       ["dasbor", "Pilih kategori Anda dengan tombol di bawah, lalu tekan Buka folder kategori ini."],
-      ["kunci", "Bila Drive meminta akses, tekan Request access lalu kirim. Cukup sekali; PPK menyetujui."],
+      ["kunci", "Folder kamar sudah terbuka: siapa saja yang memiliki tautan dari halaman ini langsung bisa masuk dan mengunggah, tanpa meminta akses."],
       ["berkas", "Unggah satu dokumen satu berkas, lalu catat tautannya di berkas INDEKS di folder itu."]]
       : [
       ["kunci", "Buka halaman ini lewat tautan pada pesan grup WAG. Tombol folder akan muncul dengan sendirinya."],
@@ -100,7 +100,7 @@ Halaman.daftar({
         a.appendChild(H.ikon("buka"));
         a.appendChild(document.createTextNode("Buka folder kategori ini"));
         bw.appendChild(a);
-        bw.appendChild(H.el("div", "bilah-hint", "Bila muncul \"You need access\", tekan Request access lalu kirim; PPK menyetujui."));
+        bw.appendChild(H.el("div", "bilah-hint", "Tautan kamar boleh diteruskan kepada tim. Bila tiba-tiba diminta akses, kabari PPK atau koordinator."));
       } else {
         var b = H.el("button", "tombol tombol--sekunder", buka ? "Tautan folder belum tersedia" : "Tombol folder terbuka lewat tautan grup WAG");
         b.type = "button";
