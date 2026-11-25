@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2107,
+ "revision": 2110,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "14.05"
+  "jam": "14.17"
  },
  "basis": {
   "kategori": [
@@ -39,7 +39,43 @@
      "terunggah": 174,
      "baris_indeks": 1589
     },
-    "ssot_risiko": null,
+    "ssot_risiko": {
+     "berkas": "SSOT_G02_PERJADIN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
+     "baris": [
+      [
+       "KH",
+       122,
+       null,
+       14,
+       null,
+       136
+      ],
+      [
+       "KI",
+       23,
+       null,
+       6,
+       null,
+       29
+      ],
+      [
+       "KT",
+       198,
+       null,
+       32,
+       null,
+       230
+      ],
+      [
+       "Umum",
+       87,
+       null,
+       9,
+       null,
+       96
+      ]
+     ]
+    },
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
@@ -57,7 +93,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 45,
-     "baris_indeks": 189
+     "baris_indeks": 188
     },
     "ssot_risiko": {
      "berkas": "SSOT_G03_PENGADAAN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -147,7 +183,27 @@
      "terunggah": 1,
      "baris_indeks": 0
     },
-    "ssot_risiko": null,
+    "ssot_risiko": {
+     "berkas": "SSOT_G04_PENGAWASAN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
+     "baris": [
+      [
+       "SPJ — TINGGI",
+       0,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       "Item FA per cut-off — TINGGI",
+       25,
+       null,
+       null,
+       null,
+       null
+      ]
+     ]
+    },
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 1,
@@ -165,13 +221,13 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 0,
-     "baris_indeks": 0
+     "baris_indeks": 9
     },
     "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 2,
+     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     }
@@ -285,9 +341,29 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 335,
-     "baris_indeks": 4287
+     "baris_indeks": 4281
     },
-    "ssot_risiko": null,
+    "ssot_risiko": {
+     "berkas": "SSOT_G11_PERTANGGUNGJAWABAN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
+     "baris": [
+      [
+       "SPJ TINGGI (tanpa lampiran)",
+       1539,
+       null,
+       null,
+       null,
+       null
+      ],
+      [
+       "Pemohon unik pada SPJ TINGGI",
+       181,
+       null,
+       null,
+       null,
+       null
+      ]
+     ]
+    },
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
@@ -304,7 +380,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 0,
+     "terunggah": 10,
      "baris_indeks": 0
     },
     "ssot_risiko": null,
@@ -405,13 +481,13 @@
    },
    "gap": {
     "TINGGI": 20,
-    "SEDANG": 40,
+    "SEDANG": 39,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 9
    },
    "dokumen": {
-    "terunggah": 581,
-    "kamar_berisi": 9,
+    "terunggah": 591,
+    "kamar_berisi": 10,
     "total_kategori": 14,
     "dibaca_dari_drive": true
    }
@@ -419,7 +495,7 @@
   "gap": {
    "total": {
     "TINGGI": 20,
-    "SEDANG": 40,
+    "SEDANG": 39,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 9
    },
@@ -462,7 +538,7 @@
     },
     "G05": {
      "TINGGI": 0,
-     "SEDANG": 2,
+     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
