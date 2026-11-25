@@ -1,10 +1,10 @@
 {
  "bentuk": 5,
- "revision": 1678,
+ "revision": 1693,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "10.44"
+  "jam": "10.58"
  },
  "basis": {
   "kategori": [
@@ -380,12 +380,6 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G09": {
-     "TINGGI": 0,
-     "SEDANG": 3,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
     "G13": {
      "TINGGI": 1,
      "SEDANG": 1,
@@ -394,6 +388,12 @@
     },
     "G11": {
      "TINGGI": 4,
+     "SEDANG": 3,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G09": {
+     "TINGGI": 0,
      "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
