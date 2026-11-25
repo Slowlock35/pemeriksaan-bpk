@@ -1,10 +1,10 @@
 {
- "bentuk": 5,
- "revision": 2096,
+ "bentuk": 6,
+ "revision": 2102,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "13.59"
+  "jam": "14.03"
  },
  "basis": {
   "kategori": [
@@ -19,6 +19,7 @@
      "terunggah": 0,
      "baris_indeks": 206
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
@@ -35,9 +36,10 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 175,
+     "terunggah": 174,
      "baris_indeks": 1589
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
@@ -54,9 +56,10 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 46,
+     "terunggah": 45,
      "baris_indeks": 189
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 3,
@@ -76,6 +79,7 @@
      "terunggah": 0,
      "baris_indeks": 0
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 1,
@@ -95,6 +99,7 @@
      "terunggah": 0,
      "baris_indeks": 0
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
@@ -114,6 +119,7 @@
      "terunggah": 1,
      "baris_indeks": 0
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
@@ -130,9 +136,10 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 1,
+     "terunggah": 0,
      "baris_indeks": 28
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
@@ -149,9 +156,10 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 2,
+     "terunggah": 1,
      "baris_indeks": 32
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
@@ -168,9 +176,10 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 9,
+     "terunggah": 8,
      "baris_indeks": 8
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
@@ -190,12 +199,13 @@
      "terunggah": 4,
      "baris_indeks": 4
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 2,
+     "SEDANG": 6,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 1
     }
    },
    {
@@ -206,9 +216,10 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 336,
+     "terunggah": 335,
      "baris_indeks": 4287
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
@@ -225,9 +236,10 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 1,
+     "terunggah": 0,
      "baris_indeks": 0
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
@@ -244,8 +256,66 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 1,
-     "baris_indeks": 54
+     "terunggah": 0,
+     "baris_indeks": 54,
+     "ssot_risiko": {
+      "berkas": "SSOT_G13_BELANJA51_GAP-RISIKO_2026_SULUT-690893_v3.xlsx",
+      "baris": [
+       [
+        "ITEM FA",
+        54,
+        0,
+        0,
+        0,
+        54
+       ],
+       [
+        "SPJ",
+        261,
+        0,
+        66,
+        0,
+        327
+       ],
+       [
+        "ITEM FA lembur (512211/512212)",
+        8,
+        0,
+        0,
+        0,
+        8
+       ]
+      ]
+     }
+    },
+    "ssot_risiko": {
+     "berkas": "SSOT_G13_BELANJA51_GAP-RISIKO_2026_SULUT-690893_v3.xlsx",
+     "baris": [
+      [
+       "ITEM FA",
+       54,
+       0,
+       0,
+       0,
+       54
+      ],
+      [
+       "SPJ",
+       261,
+       0,
+       66,
+       0,
+       327
+      ],
+      [
+       "ITEM FA lembur (512211/512212)",
+       8,
+       0,
+       0,
+       0,
+       8
+      ]
+     ]
     },
     "tenggat": "2026-11-27",
     "gap": {
@@ -263,9 +333,10 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 3,
+     "terunggah": 12,
      "baris_indeks": 9
     },
+    "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
@@ -295,13 +366,13 @@
    },
    "gap": {
     "TINGGI": 20,
-    "SEDANG": 37,
+    "SEDANG": 41,
     "RENDAH": 0,
-    "PERLU_VERIFIKASI": 8
+    "PERLU_VERIFIKASI": 9
    },
    "dokumen": {
-    "terunggah": 579,
-    "kamar_berisi": 11,
+    "terunggah": 580,
+    "kamar_berisi": 8,
     "total_kategori": 14,
     "dibaca_dari_drive": true
    }
@@ -309,9 +380,9 @@
   "gap": {
    "total": {
     "TINGGI": 20,
-    "SEDANG": 37,
+    "SEDANG": 41,
     "RENDAH": 0,
-    "PERLU_VERIFIKASI": 8
+    "PERLU_VERIFIKASI": 9
    },
    "per_kategori": {
     "G06": {
@@ -356,6 +427,12 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
+    "G10": {
+     "TINGGI": 0,
+     "SEDANG": 6,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 1
+    },
     "G04": {
      "TINGGI": 1,
      "SEDANG": 5,
@@ -392,12 +469,6 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G10": {
-     "TINGGI": 0,
-     "SEDANG": 2,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
     "G09": {
      "TINGGI": 0,
      "SEDANG": 1,
@@ -406,12 +477,12 @@
     }
    },
    "ditunda": {
-    "jumlah": 38,
+    "jumlah": 39,
     "tingkat": {
      "TINGGI": 0,
      "SEDANG": 12,
      "RENDAH": 1,
-     "PERLU_VERIFIKASI": 25
+     "PERLU_VERIFIKASI": 26
     },
     "fase": 2
    }

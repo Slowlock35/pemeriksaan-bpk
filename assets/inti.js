@@ -18,7 +18,7 @@
   var KUNCI_SIMPAN = "halaman-bpk.tautan";   // tautan yang tersimpan di peramban setelah berhasil dibuka sekali
   /* Versi bentuk data yang dipahami skrip ini. Harus sama dengan page_modul.BENTUK (Python):
      peramban menyimpan skrip lama, dan skrip lama yang menerima data bentuk baru tampil kacau. */
-  var BENTUK = 5;
+  var BENTUK = 6;
   var TINGKAT = ["TINGGI", "SEDANG", "RENDAH", "PERLU_VERIFIKASI"];
   var BULAN = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
 
