@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2114,
+ "revision": 2120,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "14.19"
+  "jam": "14.21"
  },
  "basis": {
   "kategori": [
@@ -19,7 +19,43 @@
      "terunggah": 0,
      "baris_indeks": 206
     },
-    "ssot_risiko": null,
+    "ssot_risiko": {
+     "berkas": "SSOT_G01_PEMELIHARAAN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
+     "baris": [
+      [
+       "BELUM_ADA_SPJ_TERHUBUNG",
+       12,
+       null,
+       null,
+       null,
+       12
+      ],
+      [
+       "LAMPIRAN_BELUM_ADA",
+       4,
+       null,
+       null,
+       null,
+       4
+      ],
+      [
+       "TERKOVER",
+       0,
+       null,
+       null,
+       null,
+       0
+      ],
+      [
+       "TIDAK_TERPAKAI",
+       0,
+       null,
+       null,
+       null,
+       1
+      ]
+     ]
+    },
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
@@ -223,7 +259,59 @@
      "terunggah": 0,
      "baris_indeks": 9
     },
-    "ssot_risiko": null,
+    "ssot_risiko": {
+     "berkas": "SSOT_G05_BACKUP-SIMLAB-QUVERA_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
+     "baris": [
+      [
+       "Baris butir · KH (SIMLAB, Quvera, pencatatan manual)",
+       0,
+       1,
+       0,
+       2,
+       3
+      ],
+      [
+       "Baris butir · KI (SIMLAB, Quvera, pencatatan manual)",
+       0,
+       1,
+       0,
+       2,
+       3
+      ],
+      [
+       "Baris butir · KT (SIMLAB, Quvera, pencatatan manual)",
+       0,
+       1,
+       0,
+       2,
+       3
+      ],
+      [
+       "Baris butir · semua teknis",
+       0,
+       3,
+       0,
+       6,
+       9
+      ],
+      [
+       "Kartu gap register · fase 1 (dihitung halaman)",
+       0,
+       1,
+       0,
+       1,
+       2
+      ],
+      [
+       "Kartu gap register · fase 2 (dikerjakan di Fase 2)",
+       0,
+       0,
+       0,
+       2,
+       2
+      ]
+     ]
+    },
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
@@ -247,9 +335,9 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 5,
+     "SEDANG": 4,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
+     "PERLU_VERIFIKASI": 0
     }
    },
    {
@@ -481,9 +569,9 @@
    },
    "gap": {
     "TINGGI": 20,
-    "SEDANG": 41,
+    "SEDANG": 40,
     "RENDAH": 0,
-    "PERLU_VERIFIKASI": 9
+    "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
     "terunggah": 591,
@@ -495,17 +583,11 @@
   "gap": {
    "total": {
     "TINGGI": 20,
-    "SEDANG": 41,
+    "SEDANG": 40,
     "RENDAH": 0,
-    "PERLU_VERIFIKASI": 9
+    "PERLU_VERIFIKASI": 8
    },
    "per_kategori": {
-    "G06": {
-     "TINGGI": 0,
-     "SEDANG": 5,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
-    },
     "G07": {
      "TINGGI": 0,
      "SEDANG": 2,
@@ -554,6 +636,12 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
+    "G06": {
+     "TINGGI": 0,
+     "SEDANG": 4,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
     "G12": {
      "TINGGI": 0,
      "SEDANG": 2,
@@ -592,12 +680,12 @@
     }
    },
    "ditunda": {
-    "jumlah": 39,
+    "jumlah": 40,
     "tingkat": {
      "TINGGI": 0,
      "SEDANG": 12,
      "RENDAH": 1,
-     "PERLU_VERIFIKASI": 26
+     "PERLU_VERIFIKASI": 27
     },
     "fase": 2
    }
