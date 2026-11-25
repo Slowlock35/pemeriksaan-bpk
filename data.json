@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2167,
+ "revision": 2171,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "15.37"
+  "jam": "16.20"
  },
  "basis": {
   "kategori": [
@@ -373,7 +373,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 0,
-     "baris_indeks": 28
+     "baris_indeks": 38
     },
     "ssot_risiko": {
      "berkas": "SSOT_G07_REGISTER-LAB_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -712,7 +712,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 40,
+     "terunggah": 61,
      "baris_indeks": 0
     },
     "ssot_risiko": {
@@ -800,7 +800,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 13,
+     "terunggah": 14,
      "baris_indeks": 9
     },
     "ssot_risiko": {
@@ -874,7 +874,7 @@
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 622,
+    "terunggah": 644,
     "kamar_berisi": 10,
     "total_kategori": 14,
     "dibaca_dari_drive": true
