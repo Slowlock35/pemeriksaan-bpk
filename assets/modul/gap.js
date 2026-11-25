@@ -14,6 +14,17 @@ Halaman.daftar({
     var buka = !!H.kunci("gap");
 
     p.appendChild(H.judul("Gap yang masih terbuka", "peringatan"));
+
+    /* gap fase berikutnya (isi dan eksekusi, pra audit) belum dikerjakan: hanya dihitung, tidak
+       dirinci — fase pengumpulan dokumen hanya mengukur keberadaan dokumen dan INDEKS */
+    var tunda = H.blok("gap").ditunda || {};
+    if (tunda.jumlah) {
+      var faseTunda = ((H.keadaan.linimasa || {}).fase || []).filter(function (f) { return f.no === tunda.fase; })[0];
+      var kartuTunda = H.el("div", "kartu kartu--lebar");
+      kartuTunda.appendChild(H.el("div", "bilah-hint", tunda.jumlah + " temuan isi dan eksekusi (pra audit) " +
+        "dikerjakan di Fase " + tunda.fase + (faseTunda ? " — " + faseTunda.nama : "") + "; belum dihitung di sini."));
+      p.appendChild(kartuTunda);
+    }
     if (!buka) {
       var ringkas = H.el("div", "kartu kartu--lebar");
       ringkas.appendChild(H.el("div", "gap__meta", "Total: " + H.jumlahGap(total) + " gap · " +
@@ -89,7 +100,7 @@ Halaman.daftar({
           isi.appendChild(atas);
           var bagian = g.untuk_tim ? H.pecahRingkasan(g.untuk_tim) : null;
           isi.appendChild(H.el("div", "gap__judul", bagian ? bagian.keadaan
-            : "Rincian temuan ini belum diringkas untuk tim; mohon disampaikan melalui PIC kategori " + H.namaKategori(g.kategori) + "."));
+            : "Rincian temuan ini belum diringkas untuk tim; mohon disampaikan melalui PJ kategori " + H.namaKategori(g.kategori) + "."));
           if (bagian && bagian.tindakan) isi.appendChild(H.el("div", "gap__tindakan", bagian.tindakan));
           if (g.diperbarui) isi.appendChild(H.el("div", "bilah-hint", "Diperbarui " + H.tgl(g.diperbarui)));
           li.appendChild(isi);

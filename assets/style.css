@@ -225,6 +225,10 @@ main { margin-top: 24px; min-height: 60vh; }
 .fase--rinci li { padding: 16px 14px 14px; }
 .fase--rinci .fase__nama { font-size: 16px; }
 
+/* aturan fase yang sedang berjalan (teks dari kalender register) */
+.aturan-fase__judul { display: flex; align-items: center; gap: 6px; font-size: 15px; color: var(--navy); }
+.aturan-fase__isi { margin-top: 6px; font-size: 14px; line-height: 1.55; color: var(--tinta-2); }
+
 .fase li[data-status="berjalan"] { border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-lembut), var(--bayang); }
 .fase li[data-status="berjalan"] .fase__no { background: var(--teal); color: #fff; }
 .fase li[data-status="berjalan"] .fase__ikon { color: var(--teal-kuat); }

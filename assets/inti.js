@@ -18,7 +18,7 @@
   var KUNCI_SIMPAN = "halaman-bpk.tautan";   // tautan yang tersimpan di peramban setelah berhasil dibuka sekali
   /* Versi bentuk data yang dipahami skrip ini. Harus sama dengan page_modul.BENTUK (Python):
      peramban menyimpan skrip lama, dan skrip lama yang menerima data bentuk baru tampil kacau. */
-  var BENTUK = 4;
+  var BENTUK = 5;
   var TINGKAT = ["TINGGI", "SEDANG", "RENDAH", "PERLU_VERIFIKASI"];
   var BULAN = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
 
@@ -171,6 +171,19 @@
     return li;
   }
 
+  /* Aturan main fase yang sedang berjalan — teksnya dari kalender register (mis. batas fase
+     pengumpulan dokumen dan arti gapnya), bukan teks tetap di halaman. */
+  function aturanFase(f) {
+    if (!f || f.status !== "berjalan" || !f.ket) return null;
+    var k = el("div", "kartu kartu--lebar aturan-fase");
+    var h = el("strong", "aturan-fase__judul");
+    h.appendChild(ikon("daftar"));
+    h.appendChild(document.createTextNode("Aturan Fase " + f.no + " — " + f.nama));
+    k.appendChild(h);
+    k.appendChild(el("div", "aturan-fase__isi", f.ket));
+    return k;
+  }
+
   /* ---------- pembuka bagian terkunci ----------
    * Berkas: "BPKL" (4) · versi (1) · jumlah ulang PBKDF2 (4, big-endian) · garam (16) · iv (12) · isi terenkripsi. */
   function bukaKunci(token, buf) {
@@ -198,7 +211,7 @@
     keadaan: { data: null, linimasa: null, kunci: null },
     /* alat bantu untuk modul */
     el: el, ikon: ikon, ribuan: ribuan, tgl: tgl, label: label, judul: judul, kosong: kosong, sel: sel,
-    stikel: stikel, stikelTingkat: stikelTingkat, kartuFase: kartuFase, jumlahGap: jumlahGap,
+    stikel: stikel, stikelTingkat: stikelTingkat, kartuFase: kartuFase, aturanFase: aturanFase, jumlahGap: jumlahGap,
     rincianGap: rincianGap, namaKategori: namaKategori, nadaKesiapan: nadaKesiapan, teksDokumen: teksDokumen, pecahRingkasan: pecahRingkasan,
     tingkat: TINGKAT,
     daftar: function (m) { H.modul.push(m); return m; },

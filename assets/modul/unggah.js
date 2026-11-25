@@ -1,6 +1,6 @@
 /* Modul Unggah dokumen — View.
  * Model terbuka: basis.kategori di data.json (kemajuan, tenggat).
- * Model terkunci (locked.bin -> modul.unggah): penanggung jawab, PIC bidang terkait, penelaah, dan
+ * Model terkunci (locked.bin -> modul.unggah): PJ (penanggung jawab), anggota, validator, dan
  * tombol folder Drive per kategori, serta tombol folder induk (kembali ke Google Drive). Tautan folder
  * hanya muncul sebagai tombol di sini dan di kepala halaman.
  * Jalur pengguna dibuat sesingkat mungkin: pilih kategorinya → tekan satu tombol → tiba di folder. */
@@ -119,9 +119,11 @@ Halaman.daftar({
       }
       baris("berkas", "Berkas di kamar", H.teksDokumen(dkk, dibaca));
       baris("kalender", "Tenggat", H.tgl(k.tenggat));
-      baris("orang", "Penanggung jawab", buka ? (x.penanggung_jawab || "belum ditetapkan") : "belum terbuka");
-      baris("tim", "PIC bidang terkait", buka ? ((x.pic_bidang || []).join(", ") || "belum dipetakan") : "belum terbuka");
-      baris("mata", "Menelaah", buka ? ((x.penelaah || []).join(", ") || "PPK") : "belum terbuka");
+      /* siapa mengerjakan apa: PJ (penanggung jawab), anggota/operator, validator checklist —
+         semuanya dari peta register (keputusan pemilik 25 Nov 2026: PIC diganti PJ) */
+      baris("orang", "PJ (penanggung jawab)", buka ? ((x.pj || []).join(", ") || "belum dipetakan") : "belum terbuka");
+      baris("tim", "Anggota dan operator", buka ? ((x.anggota || []).join(", ") || "belum dipetakan") : "belum terbuka");
+      baris("mata", "Validator checklist", buka ? ((x.validator || []).join(", ") || "PPK") : "belum terbuka");
       c.appendChild(dl);
       grid.appendChild(c);
     });

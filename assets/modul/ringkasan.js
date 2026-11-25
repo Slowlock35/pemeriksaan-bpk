@@ -8,6 +8,7 @@ Halaman.daftar({
   render: function (H, p) {
     var d = H.blok("ringkasan");
     var fase = d.fase_aktif || {}, tenggat = d.tenggat_berikut || {}, gap = d.gap || {}, dok = d.dokumen || {};
+    var ditunda = (H.blok("gap").ditunda || {}).jumlah || 0;      // gap fase berikutnya: belum dikerjakan
 
     /* pintu masuk unggah: pengguna yang datang untuk mengunggah langsung tahu ke mana harus pergi.
        (Bila tombol folder belum terbuka, pita di atas halaman sudah menjelaskan caranya.) */
@@ -41,7 +42,7 @@ Halaman.daftar({
     kartu("jam", "amber", "Menuju tenggat", tenggat.hari != null ? tenggat.hari + " hari" : "—",
           tenggat.label || "tidak ada tenggat bertanggal");
     kartu("perisai", "merah", "Gap terbuka", String(H.jumlahGap(gap)),
-          (gap.TINGGI || 0) + " tinggi · " + (gap.SEDANG || 0) + " sedang");
+          (gap.TINGGI || 0) + " tinggi · " + (gap.SEDANG || 0) + " sedang" + (ditunda ? " · " + ditunda + " untuk fase berikutnya" : ""));
     kartu("map", "navy", "Berkas di kamar Drive", dok.dibaca_dari_drive === false ? "—" : String(dok.terunggah || 0),
           dok.dibaca_dari_drive === false ? "belum terbaca dari Drive"
             : (dok.kamar_berisi || 0) + " dari " + (dok.total_kategori || 0) + " kategori sudah berisi berkas");
@@ -51,6 +52,8 @@ Halaman.daftar({
     var ol = H.el("ol", "fase");
     ((H.keadaan.linimasa || {}).fase || []).forEach(function (f) { ol.appendChild(H.kartuFase(f, false)); });
     p.appendChild(ol);
+    var aturan = H.aturanFase(fase);       // aturan fase yang sedang berjalan (dari kalender)
+    if (aturan) p.appendChild(aturan);
 
     /* ubin kategori bisa diklik (permintaan pemilik 24 Nov): badan ubin membuka kartu kategori itu di tab
        Unggah dokumen; tombol "N gap" langsung ke tab Gap yang sudah tersaring ke kategori itu */

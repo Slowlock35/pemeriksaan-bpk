@@ -9,8 +9,12 @@ Halaman.daftar({
   render: function (H, p) {
     p.appendChild(H.judul("Peta jalan tujuh fase", "jalur"));
     var ol = H.el("ol", "fase fase--rinci");
-    ((H.keadaan.linimasa || {}).fase || []).forEach(function (f) { ol.appendChild(H.kartuFase(f, true)); });
+    var daftarFase = (H.keadaan.linimasa || {}).fase || [];
+    daftarFase.forEach(function (f) { ol.appendChild(H.kartuFase(f, true)); });
     p.appendChild(ol);
+    /* aturan fase yang sedang berjalan — teks dari kalender register, bukan teks tetap halaman */
+    var aturan = H.aturanFase(daftarFase.filter(function (f) { return f.status === "berjalan"; })[0]);
+    if (aturan) p.appendChild(aturan);
 
     p.appendChild(H.judul("Kemajuan per kategori", "dasbor"));
     var dibaca = (H.blok("ringkasan").dokumen || {}).dibaca_dari_drive !== false;
