@@ -1,10 +1,10 @@
 {
  "bentuk": 5,
- "revision": 2033,
+ "revision": 2070,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "13.30"
+  "jam": "13.38"
  },
  "basis": {
   "kategori": [
@@ -130,7 +130,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 0,
+     "terunggah": 1,
      "baris_indeks": 28
     },
     "tenggat": "2026-11-27",
@@ -168,7 +168,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 8,
+     "terunggah": 9,
      "baris_indeks": 8
     },
     "tenggat": "2026-11-27",
@@ -300,8 +300,8 @@
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 581,
-    "kamar_berisi": 8,
+    "terunggah": 583,
+    "kamar_berisi": 9,
     "total_kategori": 14,
     "dibaca_dari_drive": true
    }
@@ -386,12 +386,6 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G09": {
-     "TINGGI": 0,
-     "SEDANG": 1,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
     "G13": {
      "TINGGI": 1,
      "SEDANG": 2,
@@ -401,6 +395,12 @@
     "G10": {
      "TINGGI": 0,
      "SEDANG": 2,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G09": {
+     "TINGGI": 0,
+     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
