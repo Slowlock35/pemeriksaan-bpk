@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2139,
+ "revision": 2147,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "14.40"
+  "jam": "14.45"
  },
  "basis": {
   "kategori": [
@@ -23,35 +23,59 @@
      "berkas": "SSOT_G01_PEMELIHARAAN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
      "baris": [
       [
-       "BELUM_ADA_SPJ_TERHUBUNG",
+       "ITEM FA · item terpakai per cut-off FA Detail",
+       16,
+       0,
+       0,
+       0,
+       16
+      ],
+      [
+       "SPJ · lingkup G01",
+       144,
+       0,
+       19,
+       0,
+       163
+      ],
+      [
+       "PAKET KONTRAK · format referensi BPK",
+       7,
+       0,
+       1,
+       1,
+       9
+      ],
+      [
+       "KEADAAN ITEM · BELUM ADA SPJ TERHUBUNG",
        12,
-       null,
-       null,
-       null,
+       0,
+       0,
+       0,
        12
       ],
       [
-       "LAMPIRAN_BELUM_ADA",
+       "KEADAAN ITEM · LAMPIRAN BELUM ADA",
        4,
-       null,
-       null,
-       null,
+       0,
+       0,
+       0,
        4
       ],
       [
-       "TERKOVER",
+       "KEADAAN ITEM · TERKOVER",
        0,
-       null,
-       null,
-       null,
+       0,
+       0,
+       0,
        0
       ],
       [
-       "TIDAK_TERPAKAI",
+       "KEADAAN ITEM · TIDAK TERPAKAI",
        0,
-       null,
-       null,
-       null,
+       0,
+       0,
+       0,
        1
       ]
      ]
@@ -468,7 +492,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 13,
+     "terunggah": 16,
      "baris_indeks": 0
     },
     "ssot_risiko": null,
@@ -536,7 +560,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 12,
+     "terunggah": 13,
      "baris_indeks": 9
     },
     "ssot_risiko": null,
@@ -574,7 +598,7 @@
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 594,
+    "terunggah": 598,
     "kamar_berisi": 10,
     "total_kategori": 14,
     "dibaca_dari_drive": true
