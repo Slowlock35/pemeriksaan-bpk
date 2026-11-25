@@ -1,10 +1,10 @@
 {
  "bentuk": 5,
- "revision": 1628,
+ "revision": 1641,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "10.15"
+  "jam": "10.22"
  },
  "basis": {
   "kategori": [
@@ -79,7 +79,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 1,
-     "SEDANG": 5,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -117,7 +117,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 4,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     }
@@ -136,7 +136,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 4,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     }
@@ -193,7 +193,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 4,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -231,7 +231,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 3,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -269,7 +269,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 3,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     }
@@ -295,7 +295,7 @@
    },
    "gap": {
     "TINGGI": 17,
-    "SEDANG": 39,
+    "SEDANG": 33,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 5
    },
@@ -309,20 +309,20 @@
   "gap": {
    "total": {
     "TINGGI": 17,
-    "SEDANG": 39,
+    "SEDANG": 33,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 5
    },
    "per_kategori": {
     "G06": {
      "TINGGI": 0,
-     "SEDANG": 4,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
     "G07": {
      "TINGGI": 0,
-     "SEDANG": 4,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
@@ -340,25 +340,25 @@
     },
     "G14": {
      "TINGGI": 0,
-     "SEDANG": 3,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
     "G10": {
      "TINGGI": 0,
-     "SEDANG": 4,
+     "SEDANG": 3,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
     "G04": {
      "TINGGI": 1,
-     "SEDANG": 5,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
     "G12": {
      "TINGGI": 0,
-     "SEDANG": 3,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
