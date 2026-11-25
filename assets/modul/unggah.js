@@ -122,8 +122,8 @@ Halaman.daftar({
          bukan hitungan bukti, dan bukan persen (satu baris SSOT belum tentu satu dokumen) */
       if (k.ssot_risiko && k.ssot_risiko.baris && k.ssot_risiko.baris.length) {
         var tampil = k.ssot_risiko.baris.slice(0, 3).map(function (r) {
-          var teks = r[0] + ": " + (r[1] == null ? "?" : r[1]) + " Tinggi";
-          if (r[5] != null) teks += " dari " + r[5];
+          var teks = r[0] + ": " + (r[1] == null ? "?" : r[1]);
+          if (r[5] != null) teks += " Tinggi dari " + r[5];
           if (r[2]) teks += " · " + r[2] + " Sedang";
           if (r[4]) teks += " · " + r[4] + " perlu verifikasi";
           return teks;
