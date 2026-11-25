@@ -1,10 +1,10 @@
 {
  "bentuk": 5,
- "revision": 1413,
+ "revision": 1451,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "08.52"
+  "jam": "09.02"
  },
  "basis": {
   "kategori": [
@@ -235,6 +235,44 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
+   },
+   {
+    "id": "G13",
+    "nama": "Belanja akun 51: gaji, tunjangan, uang makan, dan lembur (dokumen SPJ)",
+    "nomor_bpk": null,
+    "kesiapan": "NOT_ASSESSED",
+    "penyampaian": "UNKNOWN",
+    "penilaian": "NOT_ASSESSED_BY_BPK",
+    "dokumen": {
+     "terunggah": 0,
+     "baris_indeks": 54
+    },
+    "tenggat": "2026-11-27",
+    "gap": {
+     "TINGGI": 0,
+     "SEDANG": 1,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    }
+   },
+   {
+    "id": "G14",
+    "nama": "BMN dan persediaan: dokumen s.d. triwulan III 2026 (permintaan BPK audit intern TA 2026)",
+    "nomor_bpk": null,
+    "kesiapan": "NOT_ASSESSED",
+    "penyampaian": "UNKNOWN",
+    "penilaian": "NOT_ASSESSED_BY_BPK",
+    "dokumen": {
+     "terunggah": 0,
+     "baris_indeks": 9
+    },
+    "tenggat": "2026-11-27",
+    "gap": {
+     "TINGGI": 0,
+     "SEDANG": 1,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    }
    }
   ]
  },
@@ -244,7 +282,7 @@
     "no": 1,
     "nama": "Persiapan",
     "uraian": "pengumpulan dokumen permintaan BPK G01-G12",
-    "ket": "Hari ke-1 pengumpulan 24 Nov (kamar dan kanal selesai 19-23 Nov), hari ke-2 25 Nov, hari ke-3 26 Nov, hari ke-4 27 Nov (tenggat kumpul). Gap yang dihitung di fase ini hanya keberadaan: dokumen atau lampiran sudah atau belum ada di folder kerja Google Drive, dan INDEKS sudah atau belum terisi. Pemeriksaan isi dan kesesuaian dokumen (pra audit: kebenaran angka, kelengkapan isi, duplikasi, status perekaman) dikerjakan di Fase 2 Validasi dan Perbaikan. PJ tiap kategori: Katim, KTU, PBJ, dan PJ Lab; operator sebagai anggota.",
+    "ket": "Hari ke-1 pengumpulan 24 Nov (kamar dan kanal selesai 19-23 Nov), hari ke-2 25 Nov, hari ke-3 26 Nov, hari ke-4 27 Nov (tenggat kumpul). Gap yang dihitung di fase ini hanya keberadaan: dokumen atau lampiran sudah atau belum ada di folder kerja Google Drive, dan INDEKS sudah atau belum terisi. Pemeriksaan isi dan kesesuaian dokumen (pra audit: kebenaran angka, kelengkapan isi, duplikasi, status perekaman) dikerjakan di Fase 2 Validasi dan Perbaikan. PJ tiap kategori: Katim, Kasubbag TU, PBJ, dan PJ Lab; operator sebagai anggota.",
     "mulai": "2026-11-19",
     "selesai": "2026-11-27",
     "status": "berjalan",
@@ -257,21 +295,21 @@
    },
    "gap": {
     "TINGGI": 16,
-    "SEDANG": 35,
+    "SEDANG": 37,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 4
    },
    "dokumen": {
     "terunggah": 483,
     "kamar_berisi": 7,
-    "total_kategori": 12,
+    "total_kategori": 14,
     "dibaca_dari_drive": true
    }
   },
   "gap": {
    "total": {
     "TINGGI": 16,
-    "SEDANG": 35,
+    "SEDANG": 37,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 4
    },
@@ -318,18 +356,6 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G09": {
-     "TINGGI": 0,
-     "SEDANG": 3,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
-    "G11": {
-     "TINGGI": 4,
-     "SEDANG": 2,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
     "G02": {
      "TINGGI": 4,
      "SEDANG": 3,
@@ -342,7 +368,31 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
+    "G11": {
+     "TINGGI": 4,
+     "SEDANG": 2,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
     "LINTAS": {
+     "TINGGI": 0,
+     "SEDANG": 1,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G09": {
+     "TINGGI": 0,
+     "SEDANG": 3,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G13": {
+     "TINGGI": 0,
+     "SEDANG": 1,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G14": {
      "TINGGI": 0,
      "SEDANG": 1,
      "RENDAH": 0,
