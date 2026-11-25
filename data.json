@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2413,
+ "revision": 2415,
  "data": {
-  "hari": "Rabu",
-  "tanggal": "25-11-2026",
-  "jam": "18.23"
+  "hari": "Kamis",
+  "tanggal": "26-11-2026",
+  "jam": "06.57"
  },
  "basis": {
   "kategori": [
@@ -864,7 +864,7 @@
    },
    "tenggat_berikut": {
     "tanggal": "2026-11-27",
-    "hari": 2,
+    "hari": 1,
     "label": "Dokumen seluruh kategori kumpul"
    },
    "gap": {
