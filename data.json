@@ -1,10 +1,10 @@
 {
  "bentuk": 5,
- "revision": 1471,
+ "revision": 1484,
  "data": {
   "hari": "Rabu",
   "tanggal": "25-11-2026",
-  "jam": "09.43"
+  "jam": "09.56"
  },
  "basis": {
   "kategori": [
@@ -249,7 +249,7 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 0,
+     "TINGGI": 1,
      "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
@@ -294,7 +294,7 @@
     "label": "Dokumen seluruh kategori kumpul"
    },
    "gap": {
-    "TINGGI": 16,
+    "TINGGI": 17,
     "SEDANG": 39,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 5
@@ -308,7 +308,7 @@
   },
   "gap": {
    "total": {
-    "TINGGI": 16,
+    "TINGGI": 17,
     "SEDANG": 39,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 5
@@ -393,19 +393,19 @@
      "PERLU_VERIFIKASI": 0
     },
     "G13": {
-     "TINGGI": 0,
+     "TINGGI": 1,
      "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
    },
    "ditunda": {
-    "jumlah": 36,
+    "jumlah": 38,
     "tingkat": {
      "TINGGI": 0,
-     "SEDANG": 12,
+     "SEDANG": 13,
      "RENDAH": 1,
-     "PERLU_VERIFIKASI": 23
+     "PERLU_VERIFIKASI": 24
     },
     "fase": 2
    }
