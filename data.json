@@ -97,7 +97,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 223,
-     "baris_indeks": 1587
+     "baris_indeks": 1589
     },
     "ssot_risiko": {
      "berkas": "SSOT_G02_PERJADIN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -800,7 +800,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 41,
+     "terunggah": 43,
      "baris_indeks": 9
     },
     "ssot_risiko": {
@@ -874,7 +874,7 @@
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 1422,
+    "terunggah": 1424,
     "kamar_berisi": 11,
     "total_kategori": 14,
     "dibaca_dari_drive": true
