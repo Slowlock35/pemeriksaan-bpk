@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 4340,
+ "revision": 4349,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "22.39"
+  "jam": "22.52"
  },
  "basis": {
   "kategori": [
@@ -968,10 +968,10 @@
     }
    },
    "ditunda": {
-    "jumlah": 39,
+    "jumlah": 38,
     "tingkat": {
      "TINGGI": 0,
-     "SEDANG": 17,
+     "SEDANG": 16,
      "RENDAH": 1,
      "PERLU_VERIFIKASI": 21
     },
