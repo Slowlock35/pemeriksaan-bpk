@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2896,
+ "revision": 2968,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "11.24"
+  "jam": "11.27"
  },
  "basis": {
   "kategori": [
@@ -656,7 +656,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 605,
+     "terunggah": 606,
      "baris_indeks": 4240
     },
     "ssot_risiko": {
@@ -713,7 +713,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 61,
-     "baris_indeks": 0
+     "baris_indeks": 61
     },
     "ssot_risiko": {
      "berkas": "SSOT_G12_PNBP_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -874,7 +874,7 @@
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 976,
+    "terunggah": 977,
     "kamar_berisi": 11,
     "total_kategori": 14,
     "dibaca_dari_drive": true
@@ -936,12 +936,6 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G12": {
-     "TINGGI": 0,
-     "SEDANG": 2,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
     "G01": {
      "TINGGI": 5,
      "SEDANG": 3,
@@ -975,6 +969,12 @@
     "G09": {
      "TINGGI": 1,
      "SEDANG": 1,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G12": {
+     "TINGGI": 0,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
