@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2864,
+ "revision": 2882,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "11.19"
+  "jam": "11.22"
  },
  "basis": {
   "kategori": [
@@ -461,7 +461,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 8,
-     "baris_indeks": 14
+     "baris_indeks": 15
     },
     "ssot_risiko": null,
     "tenggat": "2026-11-27",
@@ -756,7 +756,7 @@
      "baris_indeks": 381
     },
     "ssot_risiko": {
-     "berkas": "SSOT_G13_BELANJA51_GAP-RISIKO_2026_SULUT-690893_v4.xlsx",
+     "berkas": "SSOT_G13_BELANJA51_GAP-RISIKO_2026_SULUT-690893_v5.xlsx",
      "baris": [
       [
        "ITEM FA",
@@ -768,9 +768,9 @@
       ],
       [
        "SPJ",
-       177,
+       174,
        0,
-       150,
+       153,
        0,
        327
       ],
@@ -825,16 +825,16 @@
       [
        "Bahan laboratorium KH/KI/KT (butir 7)",
        0,
-       3,
-       0,
+       1,
+       2,
        0,
        3
       ],
       [
        "JUMLAH",
        0,
-       7,
-       0,
+       5,
+       2,
        2,
        9
       ]
