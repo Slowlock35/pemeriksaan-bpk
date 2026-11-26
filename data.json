@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2417,
+ "revision": 2689,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "07.37"
+  "jam": "08.28"
  },
  "basis": {
   "kategori": [
@@ -96,7 +96,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 174,
+     "terunggah": 213,
      "baris_indeks": 1587
     },
     "ssot_risiko": {
@@ -104,9 +104,9 @@
      "baris": [
       [
        "KH",
-       122,
+       109,
        null,
-       14,
+       27,
        null,
        136
       ],
@@ -120,9 +120,9 @@
       ],
       [
        "KT",
-       198,
+       184,
        null,
-       32,
+       46,
        null,
        230
       ],
@@ -139,7 +139,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
-     "SEDANG": 5,
+     "SEDANG": 6,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     }
@@ -656,17 +656,17 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 448,
-     "baris_indeks": 4238
+     "terunggah": 574,
+     "baris_indeks": 4382
     },
     "ssot_risiko": {
      "berkas": "SSOT_G11_PERTANGGUNGJAWABAN_GAP-RISIKO_2026_SULUT-690893_v2.xlsx",
      "baris": [
       [
        "SPJ akun 52/53",
-       1451,
+       1307,
        0,
-       451,
+       595,
        0,
        1902
       ],
@@ -688,9 +688,9 @@
       ],
       [
        "TOTAL",
-       1650,
+       1506,
        0,
-       462,
+       606,
        0,
        2112
       ]
@@ -869,12 +869,12 @@
    },
    "gap": {
     "TINGGI": 20,
-    "SEDANG": 40,
+    "SEDANG": 41,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 772,
+    "terunggah": 937,
     "kamar_berisi": 11,
     "total_kategori": 14,
     "dibaca_dari_drive": true
@@ -883,7 +883,7 @@
   "gap": {
    "total": {
     "TINGGI": 20,
-    "SEDANG": 40,
+    "SEDANG": 41,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 8
    },
@@ -908,7 +908,7 @@
     },
     "G02": {
      "TINGGI": 5,
-     "SEDANG": 5,
+     "SEDANG": 6,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
