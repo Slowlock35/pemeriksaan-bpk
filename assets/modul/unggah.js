@@ -136,6 +136,12 @@ Halaman.daftar({
          semuanya dari peta register (keputusan pemilik 25 Nov 2026: PIC diganti PJ) */
       baris("orang", "PJ (penanggung jawab)", buka ? ((x.pj || []).join(", ") || "belum dipetakan") : "belum terbuka");
       baris("tim", "Anggota dan operator", buka ? ((x.anggota || []).join(", ") || "belum dipetakan") : "belum terbuka");
+      /* pejabat alur (PPK, PPSPM, Bendahara, KPA) mengesahkan, bukan melaksanakan — ditayangkan terpisah,
+         tidak dicampur ke anggota/operator (keputusan pemilik 25 Nov 2026, alur dokumen belanja 51).
+         Kolom baru pada data: skrip lama mengabaikannya, skrip baru tanpa data itu tidak menampilkan baris ini. */
+      if (buka && (x.pejabat || []).length) {
+        baris("orang", "Pejabat alur (mengesahkan, bukan pelaksana)", x.pejabat.join(", "));
+      }
       baris("mata", "Validator checklist", buka ? ((x.validator || []).join(", ") || "PPK") : "belum terbuka");
       c.appendChild(dl);
       grid.appendChild(c);

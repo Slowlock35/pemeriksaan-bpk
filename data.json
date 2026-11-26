@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 3888,
+ "revision": 4121,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "19.47"
+  "jam": "22.06"
  },
  "basis": {
   "kategori": [
@@ -17,7 +17,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 0,
-     "baris_indeks": 206
+     "baris_indeks": 162
     },
     "ssot_risiko": {
      "berkas": "SSOT_G01_PEMELIHARAAN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -104,33 +104,33 @@
      "baris": [
       [
        "KH",
-       86,
+       58,
        null,
-       50,
+       78,
        null,
        136
       ],
       [
        "KI",
-       14,
+       7,
        null,
-       15,
+       22,
        null,
        29
       ],
       [
        "KT",
-       142,
+       73,
        null,
-       88,
+       157,
        null,
        230
       ],
       [
        "Umum",
-       85,
+       78,
        null,
-       11,
+       18,
        null,
        96
       ]
@@ -139,7 +139,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 4,
-     "SEDANG": 4,
+     "SEDANG": 5,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -241,7 +241,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 1,
-     "baris_indeks": 21
+     "baris_indeks": 22
     },
     "ssot_risiko": {
      "berkas": "SSOT_G04_PENGAWASAN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -353,7 +353,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 1,
-     "baris_indeks": 1
+     "baris_indeks": 2
     },
     "ssot_risiko": null,
     "tenggat": "2026-11-27",
@@ -413,7 +413,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 4,
-     "baris_indeks": 119
+     "baris_indeks": 122
     },
     "ssot_risiko": {
      "berkas": "SSOT_G08_INSTALASI_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -481,7 +481,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 22,
-     "baris_indeks": 4
+     "baris_indeks": 22
     },
     "ssot_risiko": {
      "berkas": "SSOT_G10_REKOMENDASI_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -656,17 +656,17 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 947,
-     "baris_indeks": 4239
+     "terunggah": 1024,
+     "baris_indeks": 4269
     },
     "ssot_risiko": {
      "berkas": "SSOT_G11_PERTANGGUNGJAWABAN_GAP-RISIKO_2026_SULUT-690893_v2.xlsx",
      "baris": [
       [
        "SPJ akun 52/53",
-       898,
+       788,
        0,
-       1004,
+       1114,
        0,
        1902
       ],
@@ -688,9 +688,9 @@
       ],
       [
        "TOTAL",
-       1097,
+       987,
        0,
-       1015,
+       1125,
        0,
        2112
       ]
@@ -869,12 +869,12 @@
    },
    "gap": {
     "TINGGI": 21,
-    "SEDANG": 25,
+    "SEDANG": 26,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 3
    },
    "dokumen": {
-    "terunggah": 1559,
+    "terunggah": 1636,
     "kamar_berisi": 11,
     "total_kategori": 14,
     "dibaca_dari_drive": true
@@ -883,7 +883,7 @@
   "gap": {
    "total": {
     "TINGGI": 21,
-    "SEDANG": 25,
+    "SEDANG": 26,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 3
    },
@@ -924,12 +924,6 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G01": {
-     "TINGGI": 5,
-     "SEDANG": 2,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
     "G09": {
      "TINGGI": 0,
      "SEDANG": 1,
@@ -954,15 +948,21 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G14": {
-     "TINGGI": 0,
-     "SEDANG": 1,
+    "G02": {
+     "TINGGI": 4,
+     "SEDANG": 5,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G02": {
-     "TINGGI": 4,
-     "SEDANG": 4,
+    "G01": {
+     "TINGGI": 5,
+     "SEDANG": 2,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G14": {
+     "TINGGI": 0,
+     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -971,8 +971,8 @@
     "jumlah": 39,
     "tingkat": {
      "TINGGI": 0,
-     "SEDANG": 18,
-     "RENDAH": 0,
+     "SEDANG": 17,
+     "RENDAH": 1,
      "PERLU_VERIFIKASI": 21
     },
     "fase": 2
