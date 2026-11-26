@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 3307,
+ "revision": 3308,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "13.46"
+  "jam": "13.54"
  },
  "basis": {
   "kategori": [
@@ -656,17 +656,17 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 765,
-     "baris_indeks": 4238
+     "terunggah": 784,
+     "baris_indeks": 4259
     },
     "ssot_risiko": {
      "berkas": "SSOT_G11_PERTANGGUNGJAWABAN_GAP-RISIKO_2026_SULUT-690893_v2.xlsx",
      "baris": [
       [
        "SPJ akun 52/53",
-       1109,
+       1088,
        0,
-       793,
+       814,
        0,
        1902
       ],
@@ -688,9 +688,9 @@
       ],
       [
        "TOTAL",
-       1308,
+       1287,
        0,
-       804,
+       825,
        0,
        2112
       ]
@@ -874,7 +874,7 @@
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 1150,
+    "terunggah": 1169,
     "kamar_berisi": 11,
     "total_kategori": 14,
     "dibaca_dari_drive": true
