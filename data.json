@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 3463,
+ "revision": 3723,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "15.10"
+  "jam": "16.54"
  },
  "basis": {
   "kategori": [
@@ -373,7 +373,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 0,
-     "baris_indeks": 38
+     "baris_indeks": 39
     },
     "ssot_risiko": {
      "berkas": "SSOT_G07_REGISTER-LAB_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -461,7 +461,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 50,
-     "baris_indeks": 15
+     "baris_indeks": 57
     },
     "ssot_risiko": null,
     "tenggat": "2026-11-27",
@@ -656,17 +656,17 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 857,
-     "baris_indeks": 4297
+     "terunggah": 944,
+     "baris_indeks": 4261
     },
     "ssot_risiko": {
      "berkas": "SSOT_G11_PERTANGGUNGJAWABAN_GAP-RISIKO_2026_SULUT-690893_v2.xlsx",
      "baris": [
       [
        "SPJ akun 52/53",
-       1010,
+       904,
        0,
-       892,
+       998,
        0,
        1902
       ],
@@ -688,9 +688,9 @@
       ],
       [
        "TOTAL",
-       1209,
+       1103,
        0,
-       903,
+       1009,
        0,
        2112
       ]
@@ -752,7 +752,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 29,
+     "terunggah": 30,
      "baris_indeks": 392
     },
     "ssot_risiko": {
@@ -800,7 +800,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 15,
+     "terunggah": 41,
      "baris_indeks": 9
     },
     "ssot_risiko": {
@@ -874,7 +874,7 @@
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 1308,
+    "terunggah": 1422,
     "kamar_berisi": 11,
     "total_kategori": 14,
     "dibaca_dari_drive": true
@@ -912,12 +912,6 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
-    "G08": {
-     "TINGGI": 0,
-     "SEDANG": 1,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
-    },
     "G05": {
      "TINGGI": 0,
      "SEDANG": 1,
@@ -927,6 +921,12 @@
     "G10": {
      "TINGGI": 0,
      "SEDANG": 5,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 1
+    },
+    "G08": {
+     "TINGGI": 0,
+     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
