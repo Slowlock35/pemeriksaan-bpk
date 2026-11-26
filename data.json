@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2691,
+ "revision": 2692,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "08.53"
+  "jam": "08.54"
  },
  "basis": {
   "kategori": [
@@ -96,7 +96,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 213,
+     "terunggah": 225,
      "baris_indeks": 1587
     },
     "ssot_risiko": {
@@ -874,7 +874,7 @@
     "PERLU_VERIFIKASI": 8
    },
    "dokumen": {
-    "terunggah": 937,
+    "terunggah": 949,
     "kamar_berisi": 11,
     "total_kategori": 14,
     "dibaca_dari_drive": true
