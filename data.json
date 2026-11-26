@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 4590,
+ "revision": 4604,
  "data": {
   "hari": "Jumat",
   "tanggal": "27-11-2026",
-  "jam": "00.36"
+  "jam": "06.12"
  },
  "basis": {
   "kategori": [
@@ -855,6 +855,26 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
+   },
+   {
+    "id": "G15",
+    "nama": "SK dan SOP: SK penunjukan pejabat, SK pembentukan tim, dan SOP tiap unit",
+    "nomor_bpk": null,
+    "kesiapan": "NOT_ASSESSED",
+    "penyampaian": "UNKNOWN",
+    "penilaian": "NOT_ASSESSED_BY_BPK",
+    "dokumen": {
+     "terunggah": 0,
+     "baris_indeks": 16
+    },
+    "ssot_risiko": null,
+    "tenggat": "2026-11-27",
+    "gap": {
+     "TINGGI": 0,
+     "SEDANG": 1,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    }
    }
   ]
  },
@@ -877,21 +897,21 @@
    },
    "gap": {
     "TINGGI": 22,
-    "SEDANG": 42,
+    "SEDANG": 43,
     "RENDAH": 1,
     "PERLU_VERIFIKASI": 17
    },
    "dokumen": {
     "terunggah": 1963,
     "kamar_berisi": 12,
-    "total_kategori": 14,
+    "total_kategori": 15,
     "dibaca_dari_drive": true
    }
   },
   "gap": {
    "total": {
     "TINGGI": 22,
-    "SEDANG": 42,
+    "SEDANG": 43,
     "RENDAH": 1,
     "PERLU_VERIFIKASI": 17
    },
@@ -971,6 +991,12 @@
     "G14": {
      "TINGGI": 0,
      "SEDANG": 2,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G15": {
+     "TINGGI": 0,
+     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
