@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 2972,
+ "revision": 2975,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "11.32"
+  "jam": "11.41"
  },
  "basis": {
   "kategori": [
@@ -756,7 +756,7 @@
      "baris_indeks": 381
     },
     "ssot_risiko": {
-     "berkas": "SSOT_G13_BELANJA51_GAP-RISIKO_2026_SULUT-690893_v5.xlsx",
+     "berkas": "SSOT_G13_BELANJA51_GAP-RISIKO_2026_SULUT-690893_v7.xlsx",
      "baris": [
       [
        "ITEM FA",
@@ -786,7 +786,7 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 1,
+     "TINGGI": 2,
      "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
@@ -868,7 +868,7 @@
     "label": "Dokumen seluruh kategori kumpul"
    },
    "gap": {
-    "TINGGI": 21,
+    "TINGGI": 22,
     "SEDANG": 40,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 8
@@ -882,7 +882,7 @@
   },
   "gap": {
    "total": {
-    "TINGGI": 21,
+    "TINGGI": 22,
     "SEDANG": 40,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 8
@@ -955,7 +955,7 @@
      "PERLU_VERIFIKASI": 0
     },
     "G13": {
-     "TINGGI": 1,
+     "TINGGI": 2,
      "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
