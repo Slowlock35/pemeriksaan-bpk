@@ -1,6 +1,6 @@
 {
  "bentuk": 6,
- "revision": 4349,
+ "revision": 4508,
  "fase": [
   {
    "no": 1,
@@ -19,7 +19,7 @@
    "ket": "Gap isi dan eksekusi yang ditunda dari Fase 1 dikerjakan di sini; validator checklist Dede, Sakir, dan Arrow untuk semua belanja 51, 52, 53.",
    "mulai": "2026-11-27",
    "selesai": "2026-12-04",
-   "status": "direncanakan",
+   "status": "berjalan",
    "ket_waktu": null
   },
   {

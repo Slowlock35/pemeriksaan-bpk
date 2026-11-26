@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 4349,
+ "revision": 4508,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "22.52"
+  "jam": "23.53"
  },
  "basis": {
   "kategori": [
@@ -83,7 +83,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
-     "SEDANG": 2,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -139,9 +139,9 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 4,
-     "SEDANG": 5,
+     "SEDANG": 9,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 5
     }
    },
    {
@@ -227,7 +227,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 3,
-     "SEDANG": 1,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -359,9 +359,9 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 3,
+     "SEDANG": 4,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 2
     }
    },
    {
@@ -373,7 +373,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 0,
-     "baris_indeks": 130
+     "baris_indeks": 152
     },
     "ssot_risiko": {
      "berkas": "SSOT_G07_REGISTER-LAB_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -449,7 +449,7 @@
      "TINGGI": 0,
      "SEDANG": 1,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
+     "PERLU_VERIFIKASI": 4
     }
    },
    {
@@ -469,7 +469,7 @@
      "TINGGI": 0,
      "SEDANG": 1,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 1
     }
    },
    {
@@ -645,28 +645,28 @@
      "TINGGI": 0,
      "SEDANG": 4,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
+     "PERLU_VERIFIKASI": 3
     }
    },
    {
     "id": "G11",
-    "nama": "Pertanggungjawaban belanja 52 dan 53 per item FA Detail",
+    "nama": "Pertanggungjawaban belanja 52 dan 53 per item FA Detail, dan laporan keuangan (SHR, berita acara rekonsiliasi) di folder sendiri",
     "nomor_bpk": "12",
     "kesiapan": "NOT_ASSESSED",
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 1047,
-     "baris_indeks": 4274
+     "terunggah": 1082,
+     "baris_indeks": 4270
     },
     "ssot_risiko": {
      "berkas": "SSOT_G11_PERTANGGUNGJAWABAN_GAP-RISIKO_2026_SULUT-690893_v2.xlsx",
      "baris": [
       [
        "SPJ akun 52/53",
-       752,
+       685,
        0,
-       1150,
+       1217,
        0,
        1902
       ],
@@ -688,9 +688,9 @@
       ],
       [
        "TOTAL",
-       951,
+       884,
        0,
-       1161,
+       1228,
        0,
        2112
       ]
@@ -699,8 +699,8 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
-     "SEDANG": 2,
-     "RENDAH": 0,
+     "SEDANG": 7,
+     "RENDAH": 1,
      "PERLU_VERIFIKASI": 0
     }
    },
@@ -787,9 +787,9 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 3,
-     "SEDANG": 2,
+     "SEDANG": 3,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 1
     }
    },
    {
@@ -843,7 +843,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 1,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -864,17 +864,17 @@
    },
    "tenggat_berikut": {
     "tanggal": "2026-11-27",
-    "hari": 1,
+    "hari": 0,
     "label": "Dokumen seluruh kategori kumpul"
    },
    "gap": {
     "TINGGI": 21,
-    "SEDANG": 26,
-    "RENDAH": 0,
-    "PERLU_VERIFIKASI": 3
+    "SEDANG": 41,
+    "RENDAH": 1,
+    "PERLU_VERIFIKASI": 17
    },
    "dokumen": {
-    "terunggah": 1690,
+    "terunggah": 1725,
     "kamar_berisi": 11,
     "total_kategori": 14,
     "dibaca_dari_drive": true
@@ -883,16 +883,34 @@
   "gap": {
    "total": {
     "TINGGI": 21,
-    "SEDANG": 26,
-    "RENDAH": 0,
-    "PERLU_VERIFIKASI": 3
+    "SEDANG": 41,
+    "RENDAH": 1,
+    "PERLU_VERIFIKASI": 17
    },
    "per_kategori": {
+    "G02": {
+     "TINGGI": 4,
+     "SEDANG": 9,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 5
+    },
+    "G08": {
+     "TINGGI": 0,
+     "SEDANG": 1,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 4
+    },
+    "G13": {
+     "TINGGI": 3,
+     "SEDANG": 3,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 1
+    },
     "G10": {
      "TINGGI": 0,
      "SEDANG": 4,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
+     "PERLU_VERIFIKASI": 3
     },
     "G04": {
      "TINGGI": 1,
@@ -900,31 +918,37 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
-    "G08": {
+    "G06": {
+     "TINGGI": 0,
+     "SEDANG": 4,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 2
+    },
+    "G09": {
      "TINGGI": 0,
      "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
-    "G06": {
-     "TINGGI": 0,
-     "SEDANG": 3,
+    "G11": {
+     "TINGGI": 5,
+     "SEDANG": 7,
+     "RENDAH": 1,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G01": {
+     "TINGGI": 5,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
     "G03": {
      "TINGGI": 3,
-     "SEDANG": 1,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
     "G05": {
-     "TINGGI": 0,
-     "SEDANG": 1,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
-    "G09": {
      "TINGGI": 0,
      "SEDANG": 1,
      "RENDAH": 0,
@@ -936,46 +960,22 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G13": {
-     "TINGGI": 3,
-     "SEDANG": 2,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
-    "G11": {
-     "TINGGI": 5,
-     "SEDANG": 2,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
-    "G02": {
-     "TINGGI": 4,
-     "SEDANG": 5,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
-    "G01": {
-     "TINGGI": 5,
-     "SEDANG": 2,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
     "G14": {
      "TINGGI": 0,
-     "SEDANG": 1,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
    },
    "ditunda": {
-    "jumlah": 38,
+    "jumlah": 0,
     "tingkat": {
      "TINGGI": 0,
-     "SEDANG": 16,
-     "RENDAH": 1,
-     "PERLU_VERIFIKASI": 21
+     "SEDANG": 0,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
     },
-    "fase": 2
+    "fase": 3
    }
   },
   "unggah": {},
