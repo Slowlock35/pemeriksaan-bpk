@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 3723,
+ "revision": 3728,
  "data": {
   "hari": "Kamis",
   "tanggal": "26-11-2026",
-  "jam": "16.54"
+  "jam": "16.56"
  },
  "basis": {
   "kategori": [
@@ -373,7 +373,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 0,
-     "baris_indeks": 39
+     "baris_indeks": 101
     },
     "ssot_risiko": {
      "berkas": "SSOT_G07_REGISTER-LAB_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -466,7 +466,7 @@
     "ssot_risiko": null,
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 1,
+     "TINGGI": 0,
      "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
@@ -868,7 +868,7 @@
     "label": "Dokumen seluruh kategori kumpul"
    },
    "gap": {
-    "TINGGI": 22,
+    "TINGGI": 21,
     "SEDANG": 40,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 8
@@ -882,7 +882,7 @@
   },
   "gap": {
    "total": {
-    "TINGGI": 22,
+    "TINGGI": 21,
     "SEDANG": 40,
     "RENDAH": 0,
     "PERLU_VERIFIKASI": 8
@@ -966,15 +966,15 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G09": {
-     "TINGGI": 1,
-     "SEDANG": 1,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
     "G12": {
      "TINGGI": 0,
      "SEDANG": 2,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G09": {
+     "TINGGI": 0,
+     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
