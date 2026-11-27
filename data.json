@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 5547,
+ "revision": 5934,
  "data": {
-  "hari": "Jumat",
-  "tanggal": "27-11-2026",
-  "jam": "20.42"
+  "hari": "Sabtu",
+  "tanggal": "28-11-2026",
+  "jam": "06.15"
  },
  "basis": {
   "kategori": [
@@ -16,7 +16,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 2,
+     "terunggah": 39,
      "baris_indeks": 162
     },
     "ssot_risiko": {
@@ -32,17 +32,17 @@
       ],
       [
        "SPJ · lingkup G01",
-       45,
+       25,
        0,
-       118,
+       138,
        0,
        163
       ],
       [
        "PAKET KONTRAK · format referensi BPK",
-       4,
+       2,
        0,
-       4,
+       6,
        1,
        9
       ],
@@ -83,7 +83,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
-     "SEDANG": 2,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -96,8 +96,8 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 958,
-     "baris_indeks": 1582
+     "terunggah": 962,
+     "baris_indeks": 1592
     },
     "ssot_risiko": {
      "berkas": "SSOT_G02_PERJADIN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -138,10 +138,10 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 4,
-     "SEDANG": 5,
+     "TINGGI": 5,
+     "SEDANG": 9,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 5
     }
    },
    {
@@ -240,7 +240,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 3,
+     "terunggah": 8,
      "baris_indeks": 24
     },
     "ssot_risiko": {
@@ -341,7 +341,7 @@
      "TINGGI": 0,
      "SEDANG": 1,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 1
     }
    },
    {
@@ -359,9 +359,9 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 2,
+     "SEDANG": 3,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 2
     }
    },
    {
@@ -449,7 +449,7 @@
      "TINGGI": 0,
      "SEDANG": 0,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
+     "PERLU_VERIFIKASI": 4
     }
    },
    {
@@ -469,7 +469,7 @@
      "TINGGI": 0,
      "SEDANG": 1,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 1
     }
    },
    {
@@ -653,7 +653,7 @@
      "TINGGI": 0,
      "SEDANG": 2,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
+     "PERLU_VERIFIKASI": 3
     }
    },
    {
@@ -664,17 +664,17 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 1257,
-     "baris_indeks": 4247
+     "terunggah": 1424,
+     "baris_indeks": 4253
     },
     "ssot_risiko": {
      "berkas": "SSOT_G11_PERTANGGUNGJAWABAN_GAP-RISIKO_2026_SULUT-690893_v2.xlsx",
      "baris": [
       [
        "SPJ akun 52/53",
-       383,
+       183,
        0,
-       1519,
+       1719,
        0,
        1902
       ],
@@ -704,9 +704,9 @@
       ],
       [
        "TOTAL",
-       582,
+       382,
        2,
-       1530,
+       1730,
        0,
        2114
       ]
@@ -715,8 +715,8 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 6,
-     "SEDANG": 2,
-     "RENDAH": 0,
+     "SEDANG": 8,
+     "RENDAH": 1,
      "PERLU_VERIFIKASI": 0
     }
    },
@@ -768,7 +768,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 109,
+     "terunggah": 111,
      "baris_indeks": 429
     },
     "ssot_risiko": {
@@ -803,9 +803,9 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 3,
-     "SEDANG": 2,
+     "SEDANG": 3,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "PERLU_VERIFIKASI": 1
     }
    },
    {
@@ -859,7 +859,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 1,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -889,28 +889,28 @@
  "modul": {
   "ringkasan": {
    "fase_aktif": {
-    "no": 1,
-    "nama": "Persiapan",
-    "uraian": "pengumpulan dokumen permintaan BPK G01-G12",
-    "ket": "Hari ke-1 pengumpulan 24 Nov (kamar dan kanal selesai 19-23 Nov), hari ke-2 25 Nov, hari ke-3 26 Nov, hari ke-4 27 Nov (tenggat kumpul). Gap yang dihitung di fase ini hanya keberadaan: dokumen atau lampiran sudah atau belum ada di folder kerja Google Drive, dan INDEKS sudah atau belum terisi. Pemeriksaan isi dan kesesuaian dokumen (pra audit: kebenaran angka, kelengkapan isi, duplikasi, status perekaman) dikerjakan di Fase 2 Validasi dan Perbaikan. PJ tiap kategori: Katim, Kasubbag TU, PBJ, dan PJ Lab; operator sebagai anggota. PENUTUPAN 27 Nov 2026 malam (keputusan pemilik 20.03 WITA): Fase 1 ditutup 27 Nov 2026 dan Fase 2 dimulai 28 Nov 2026. Unggah dokumen dan perbaikan data TETAP BOLEH dilanjutkan pada Fase 2; kekurangan keberadaan yang tersisa (dokumen/lampiran belum ada, INDEKS belum terisi) dibawa ke Fase 2 sebagai gap fase 1 yang masih berlaku.",
-    "mulai": "2026-11-19",
-    "selesai": "2026-11-27",
+    "no": 2,
+    "nama": "Validasi dan perbaikan",
+    "uraian": "penelaahan paket tiap kategori, pemeriksaan isi dan kesesuaian dokumen (pra audit), perbaikan kekurangan, reviu pejabat",
+    "ket": "Gap isi dan eksekusi yang ditunda dari Fase 1 dikerjakan di sini; validator checklist Dede, Sakir, dan Arrow untuk semua belanja 51, 52, 53. PEMILIK 27 Nov 2026 malam: fase 2 DIMULAI 28 Nov 2026. Fokus pengawalan = pra audit / temuan audit internal; unggah dokumen dan perbaikan data tetap boleh. Yang dipra-audit: kesesuaian dokumen dan daftar, simulasi audit, gap yang mengakomodasi risiko temuan administrasi, simulasi nilai temuan potensi TGR (alat KOORD). Temuan pra audit = gap fase 2 di domain kamar; eskalasi via person oleh KOORD satu per satu atas persetujuan pemilik. Prioritas drop point = perjadin (G02 dipercepat: unggah SPJ di daftar SharePoint, update, validasi). Cut-off realisasi 30 Nov 2026 sesuai FA Detail (sampai diterbitkan pemilik: dasar data tetap FA Detail cut-off 19 Nov 2026 07.12). Rujukan:",
+    "mulai": "2026-11-28",
+    "selesai": "2026-12-04",
     "status": "berjalan",
     "ket_waktu": null
    },
    "tenggat_berikut": {
-    "tanggal": "2026-11-27",
+    "tanggal": "2026-11-28",
     "hari": 0,
-    "label": "Dokumen seluruh kategori kumpul"
+    "label": "Mulai Validasi dan perbaikan"
    },
    "gap": {
-    "TINGGI": 21,
-    "SEDANG": 24,
-    "RENDAH": 0,
-    "PERLU_VERIFIKASI": 3
+    "TINGGI": 22,
+    "SEDANG": 39,
+    "RENDAH": 1,
+    "PERLU_VERIFIKASI": 18
    },
    "dokumen": {
-    "terunggah": 2954,
+    "terunggah": 3169,
     "kamar_berisi": 14,
     "total_kategori": 15,
     "dibaca_dari_drive": true
@@ -918,15 +918,45 @@
   },
   "gap": {
    "total": {
-    "TINGGI": 21,
-    "SEDANG": 24,
-    "RENDAH": 0,
-    "PERLU_VERIFIKASI": 3
+    "TINGGI": 22,
+    "SEDANG": 39,
+    "RENDAH": 1,
+    "PERLU_VERIFIKASI": 18
    },
    "per_kategori": {
+    "G02": {
+     "TINGGI": 5,
+     "SEDANG": 9,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 5
+    },
+    "G13": {
+     "TINGGI": 3,
+     "SEDANG": 3,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 1
+    },
+    "G08": {
+     "TINGGI": 0,
+     "SEDANG": 0,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 4
+    },
     "G10": {
      "TINGGI": 0,
      "SEDANG": 2,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 3
+    },
+    "G06": {
+     "TINGGI": 0,
+     "SEDANG": 3,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 2
+    },
+    "G09": {
+     "TINGGI": 0,
+     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
@@ -936,16 +966,16 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
-    "G08": {
+    "G05": {
      "TINGGI": 0,
-     "SEDANG": 0,
+     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
-    "G02": {
-     "TINGGI": 4,
-     "SEDANG": 5,
-     "RENDAH": 0,
+    "G11": {
+     "TINGGI": 6,
+     "SEDANG": 8,
+     "RENDAH": 1,
      "PERLU_VERIFIKASI": 0
     },
     "G03": {
@@ -954,8 +984,8 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G13": {
-     "TINGGI": 3,
+    "G14": {
+     "TINGGI": 0,
      "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
@@ -966,33 +996,9 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G14": {
-     "TINGGI": 0,
-     "SEDANG": 1,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
-    "G09": {
-     "TINGGI": 0,
-     "SEDANG": 1,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
-    "G06": {
-     "TINGGI": 0,
-     "SEDANG": 2,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
-    "G05": {
-     "TINGGI": 0,
-     "SEDANG": 1,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
     "G01": {
      "TINGGI": 5,
-     "SEDANG": 2,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
@@ -1001,23 +1007,17 @@
      "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
-    },
-    "G11": {
-     "TINGGI": 6,
-     "SEDANG": 2,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
     }
    },
    "ditunda": {
-    "jumlah": 30,
+    "jumlah": 0,
     "tingkat": {
      "TINGGI": 0,
-     "SEDANG": 15,
-     "RENDAH": 1,
-     "PERLU_VERIFIKASI": 14
+     "SEDANG": 0,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
     },
-    "fase": 2
+    "fase": 3
    }
   },
   "unggah": {},

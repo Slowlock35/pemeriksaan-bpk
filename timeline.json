@@ -1,6 +1,6 @@
 {
  "bentuk": 6,
- "revision": 5547,
+ "revision": 5934,
  "fase": [
   {
    "no": 1,
@@ -9,7 +9,7 @@
    "ket": "Hari ke-1 pengumpulan 24 Nov (kamar dan kanal selesai 19-23 Nov), hari ke-2 25 Nov, hari ke-3 26 Nov, hari ke-4 27 Nov (tenggat kumpul). Gap yang dihitung di fase ini hanya keberadaan: dokumen atau lampiran sudah atau belum ada di folder kerja Google Drive, dan INDEKS sudah atau belum terisi. Pemeriksaan isi dan kesesuaian dokumen (pra audit: kebenaran angka, kelengkapan isi, duplikasi, status perekaman) dikerjakan di Fase 2 Validasi dan Perbaikan. PJ tiap kategori: Katim, Kasubbag TU, PBJ, dan PJ Lab; operator sebagai anggota. PENUTUPAN 27 Nov 2026 malam (keputusan pemilik 20.03 WITA): Fase 1 ditutup 27 Nov 2026 dan Fase 2 dimulai 28 Nov 2026. Unggah dokumen dan perbaikan data TETAP BOLEH dilanjutkan pada Fase 2; kekurangan keberadaan yang tersisa (dokumen/lampiran belum ada, INDEKS belum terisi) dibawa ke Fase 2 sebagai gap fase 1 yang masih berlaku.",
    "mulai": "2026-11-19",
    "selesai": "2026-11-27",
-   "status": "berjalan",
+   "status": "selesai",
    "ket_waktu": null
   },
   {
@@ -19,7 +19,7 @@
    "ket": "Gap isi dan eksekusi yang ditunda dari Fase 1 dikerjakan di sini; validator checklist Dede, Sakir, dan Arrow untuk semua belanja 51, 52, 53. PEMILIK 27 Nov 2026 malam: fase 2 DIMULAI 28 Nov 2026. Fokus pengawalan = pra audit / temuan audit internal; unggah dokumen dan perbaikan data tetap boleh. Yang dipra-audit: kesesuaian dokumen dan daftar, simulasi audit, gap yang mengakomodasi risiko temuan administrasi, simulasi nilai temuan potensi TGR (alat KOORD). Temuan pra audit = gap fase 2 di domain kamar; eskalasi via person oleh KOORD satu per satu atas persetujuan pemilik. Prioritas drop point = perjadin (G02 dipercepat: unggah SPJ di daftar SharePoint, update, validasi). Cut-off realisasi 30 Nov 2026 sesuai FA Detail (sampai diterbitkan pemilik: dasar data tetap FA Detail cut-off 19 Nov 2026 07.12). Rujukan:",
    "mulai": "2026-11-28",
    "selesai": "2026-12-04",
-   "status": "direncanakan",
+   "status": "berjalan",
    "ket_waktu": null
   },
   {
@@ -29,7 +29,7 @@
    "ket": "Silahkan nada audit dlu dan eskalasi ini sama untuk semua sesi, dan prioritas drop points adalah perjadin maka perjadin harus dipercepat baik upload SPJ di share point liat dan update dan validasi - pre audit akan mengakomodir simulasi nilai temuan potensi tgr\". PENERAPAN (tafsir KOORD atas ejaan: 'share point liat' = daftar SharePoint; 'nada audit dlu' = mulai audit dulu/pra audit; 'TGR' = Tidak Dapat Dipertanggungjawabkan — pemilik dapat mengoreksi): brief yang sama ke seluruh 15 sesi; pra audit = kesesuaian dokumen dan daftar + simulasi audit + gap fase 2; eskalasi via person oleh KOORD; G02 dipercepat; alur SSOT perjadin 'deteksi perubahan sebelum update/sinkron' (AGENTS.md 7a); pengumuman WAG dua pesan terpisah menunggu persetujuan pemilik.",
    "mulai": "2026-11-28",
    "selesai": null,
-   "status": "direncanakan",
+   "status": "berjalan",
    "ket_waktu": null
   },
   {
@@ -39,7 +39,7 @@
    "ket": "00",
    "mulai": "2026-11-28",
    "selesai": null,
-   "status": "direncanakan",
+   "status": "berjalan",
    "ket_waktu": null
   },
   {
