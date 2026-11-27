@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 4629,
+ "revision": 4651,
  "data": {
   "hari": "Jumat",
   "tanggal": "27-11-2026",
-  "jam": "07.39"
+  "jam": "08.08"
  },
  "basis": {
   "kategori": [
@@ -96,7 +96,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 355,
+     "terunggah": 599,
      "baris_indeks": 1589
     },
     "ssot_risiko": {
@@ -152,7 +152,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 46,
+     "terunggah": 52,
      "baris_indeks": 188
     },
     "ssot_risiko": {
@@ -160,25 +160,25 @@
      "baris": [
       [
        "PERMINTAAN BPK · No. 1",
-       6,
+       5,
        0,
-       0,
+       1,
        1,
        7
       ],
       [
        "PERMINTAAN BPK · No. 3",
-       56,
+       53,
        1,
-       2,
+       5,
        56,
        115
       ],
       [
        "PERMINTAAN BPK · No. 12",
-       56,
+       53,
        1,
-       2,
+       5,
        56,
        115
       ],
@@ -192,9 +192,9 @@
       ],
       [
        "METODE · E-Purchasing",
-       52,
+       49,
        1,
-       2,
+       5,
        35,
        90
       ],
@@ -323,16 +323,16 @@
        0,
        1,
        0,
-       1,
-       2
+       0,
+       1
       ],
       [
        "Kartu gap register · fase 2 (dikerjakan di Fase 2)",
        0,
        0,
        0,
-       2,
-       2
+       0,
+       0
       ]
      ]
     },
@@ -352,8 +352,8 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 1,
-     "baris_indeks": 2
+     "terunggah": 2,
+     "baris_indeks": 3
     },
     "ssot_risiko": null,
     "tenggat": "2026-11-27",
@@ -413,7 +413,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 4,
-     "baris_indeks": 122
+     "baris_indeks": 125
     },
     "ssot_risiko": {
      "berkas": "SSOT_G08_INSTALASI_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -864,7 +864,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 0,
+     "terunggah": 1,
      "baris_indeks": 16
     },
     "ssot_risiko": null,
@@ -902,8 +902,8 @@
     "PERLU_VERIFIKASI": 17
    },
    "dokumen": {
-    "terunggah": 1964,
-    "kamar_berisi": 12,
+    "terunggah": 2216,
+    "kamar_berisi": 13,
     "total_kategori": 15,
     "dibaca_dari_drive": true
    }
@@ -976,13 +976,19 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G05": {
+    "G12": {
      "TINGGI": 0,
      "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G12": {
+    "G15": {
+     "TINGGI": 0,
+     "SEDANG": 1,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G05": {
      "TINGGI": 0,
      "SEDANG": 1,
      "RENDAH": 0,
@@ -991,12 +997,6 @@
     "G14": {
      "TINGGI": 0,
      "SEDANG": 2,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
-    "G15": {
-     "TINGGI": 0,
-     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
