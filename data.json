@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 4765,
+ "revision": 4775,
  "data": {
   "hari": "Jumat",
   "tanggal": "27-11-2026",
-  "jam": "09.09"
+  "jam": "09.15"
  },
  "basis": {
   "kategori": [
@@ -753,7 +753,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 62,
-     "baris_indeks": 327
+     "baris_indeks": 328
     },
     "ssot_risiko": {
      "berkas": "SSOT_G13_BELANJA51_GAP-RISIKO_2026_SULUT-690893_v11.xlsx",
