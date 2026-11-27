@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 5980,
+ "revision": 6076,
  "data": {
   "hari": "Sabtu",
   "tanggal": "28-11-2026",
-  "jam": "06.31"
+  "jam": "07.10"
  },
  "basis": {
   "kategori": [
@@ -97,7 +97,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 962,
-     "baris_indeks": 1592
+     "baris_indeks": 1594
     },
     "ssot_risiko": {
      "berkas": "SSOT_G02_PERJADIN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -139,7 +139,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
-     "SEDANG": 9,
+     "SEDANG": 13,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 5
     }
@@ -738,8 +738,8 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 6,
-     "SEDANG": 8,
+     "TINGGI": 4,
+     "SEDANG": 11,
      "RENDAH": 1,
      "PERLU_VERIFIKASI": 0
     }
@@ -792,11 +792,11 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 111,
-     "baris_indeks": 429
+     "terunggah": 124,
+     "baris_indeks": 725
     },
     "ssot_risiko": {
-     "berkas": "SSOT_G13_BELANJA51_GAP-RISIKO_2026_SULUT-690893_v15.xlsx",
+     "berkas": "SSOT_G13_BELANJA51_GAP-RISIKO_2026_SULUT-690893_v19.xlsx",
      "baris": [
       [
        "ITEM FA",
@@ -903,9 +903,9 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 1,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
+     "SEDANG": 3,
+     "RENDAH": 1,
+     "PERLU_VERIFIKASI": 2
     }
    }
   ]
@@ -928,13 +928,13 @@
     "label": "Mulai Validasi dan perbaikan"
    },
    "gap": {
-    "TINGGI": 23,
-    "SEDANG": 52,
-    "RENDAH": 1,
-    "PERLU_VERIFIKASI": 24
+    "TINGGI": 21,
+    "SEDANG": 61,
+    "RENDAH": 2,
+    "PERLU_VERIFIKASI": 26
    },
    "dokumen": {
-    "terunggah": 3186,
+    "terunggah": 3199,
     "kamar_berisi": 14,
     "total_kategori": 15,
     "dibaca_dari_drive": true
@@ -942,15 +942,15 @@
   },
   "gap": {
    "total": {
-    "TINGGI": 23,
-    "SEDANG": 52,
-    "RENDAH": 1,
-    "PERLU_VERIFIKASI": 24
+    "TINGGI": 21,
+    "SEDANG": 61,
+    "RENDAH": 2,
+    "PERLU_VERIFIKASI": 26
    },
    "per_kategori": {
     "G02": {
      "TINGGI": 5,
-     "SEDANG": 9,
+     "SEDANG": 13,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 5
     },
@@ -1002,6 +1002,12 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
+    "G15": {
+     "TINGGI": 0,
+     "SEDANG": 3,
+     "RENDAH": 1,
+     "PERLU_VERIFIKASI": 2
+    },
     "G12": {
      "TINGGI": 0,
      "SEDANG": 2,
@@ -1009,8 +1015,8 @@
      "PERLU_VERIFIKASI": 1
     },
     "G11": {
-     "TINGGI": 6,
-     "SEDANG": 8,
+     "TINGGI": 4,
+     "SEDANG": 11,
      "RENDAH": 1,
      "PERLU_VERIFIKASI": 0
     },
@@ -1023,12 +1029,6 @@
     "G01": {
      "TINGGI": 5,
      "SEDANG": 5,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
-    "G15": {
-     "TINGGI": 0,
-     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
