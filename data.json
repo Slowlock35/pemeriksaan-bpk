@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 4651,
+ "revision": 4715,
  "data": {
   "hari": "Jumat",
   "tanggal": "27-11-2026",
-  "jam": "08.08"
+  "jam": "08.26"
  },
  "basis": {
   "kategori": [
@@ -16,8 +16,8 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 0,
-     "baris_indeks": 162
+     "terunggah": 1,
+     "baris_indeks": 0
     },
     "ssot_risiko": {
      "berkas": "SSOT_G01_PEMELIHARAAN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -96,41 +96,41 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 599,
-     "baris_indeks": 1589
+     "terunggah": 833,
+     "baris_indeks": 1582
     },
     "ssot_risiko": {
      "berkas": "SSOT_G02_PERJADIN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
      "baris": [
       [
        "KH",
-       58,
+       27,
        null,
-       78,
+       109,
        null,
        136
       ],
       [
        "KI",
-       7,
+       3,
        null,
-       22,
+       26,
        null,
        29
       ],
       [
        "KT",
-       73,
+       19,
        null,
-       157,
+       211,
        null,
        230
       ],
       [
        "Umum",
-       78,
+       31,
        null,
-       18,
+       65,
        null,
        96
       ]
@@ -152,7 +152,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 52,
+     "terunggah": 53,
      "baris_indeks": 188
     },
     "ssot_risiko": {
@@ -240,8 +240,8 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 1,
-     "baris_indeks": 22
+     "terunggah": 2,
+     "baris_indeks": 23
     },
     "ssot_risiko": {
      "berkas": "SSOT_G04_PENGAWASAN_GAP-RISIKO_2026_SULUT-690893_v1.xlsx",
@@ -266,7 +266,7 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 1,
+     "TINGGI": 0,
      "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
@@ -353,7 +353,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 2,
-     "baris_indeks": 3
+     "baris_indeks": 5
     },
     "ssot_risiko": null,
     "tenggat": "2026-11-27",
@@ -489,8 +489,8 @@
       [
        "BIDANG · KH",
        0,
-       8,
-       12,
+       4,
+       16,
        1,
        21
       ],
@@ -505,58 +505,50 @@
       [
        "BIDANG · KT",
        0,
-       1,
-       0,
-       1,
-       2
+       18,
+       54,
+       19,
+       91
       ],
       [
        "BIDANG · LINTAS",
        0,
-       1,
        0,
-       3,
-       4
+       0,
+       2,
+       2
       ],
       [
        "JENIS · BARIS_INDEKS",
        0,
        0,
-       4,
+       22,
        0,
-       4
+       22
       ],
       [
        "JENIS · BUKTI_PENYAMPAIAN",
        0,
-       4,
+       22,
        0,
        0,
-       4
+       22
       ],
       [
        "JENIS · DASAR_PENILAIAN",
        0,
        0,
        4,
-       0,
-       4
+       18,
+       22
       ],
       [
        "JENIS · DOK_REKOMENDASI",
        0,
-       2,
-       4,
-       0,
-       6
-      ],
-      [
-       "JENIS · KOLOM_INDEKS",
-       0,
        1,
+       22,
        0,
-       0,
-       1
+       23
       ],
       [
        "JENIS · KONFIRMASI_KELENGKAPAN",
@@ -575,20 +567,12 @@
        1
       ],
       [
-       "JENIS · PERIODE",
-       0,
-       0,
-       0,
-       1,
-       1
-      ],
-      [
        "JENIS · TAUTAN_STATUS_INDEKS",
        0,
-       4,
        0,
+       22,
        0,
-       4
+       22
       ],
       [
        "JENIS · TELAAH_ISI",
@@ -604,7 +588,7 @@
        0,
        0,
        0,
-       1
+       2
       ],
       [
        "REGISTER · OPEN / PERLU_VERIFIKASI / fase 1",
@@ -620,7 +604,7 @@
        0,
        0,
        0,
-       3
+       2
       ],
       [
        "REGISTER · OPEN / SEDANG / fase 1",
@@ -628,7 +612,15 @@
        0,
        0,
        0,
-       5
+       2
+      ],
+      [
+       "REGISTER · SELESAI / PERLU_VERIFIKASI / fase 2",
+       0,
+       0,
+       0,
+       0,
+       1
       ],
       [
        "REGISTER · SELESAI / SEDANG / fase 1",
@@ -636,14 +628,14 @@
        0,
        0,
        0,
-       2
+       4
       ]
      ]
     },
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 4,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 3
     }
@@ -760,7 +752,7 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 61,
+     "terunggah": 62,
      "baris_indeks": 327
     },
     "ssot_risiko": {
@@ -896,22 +888,22 @@
     "label": "Dokumen seluruh kategori kumpul"
    },
    "gap": {
-    "TINGGI": 22,
-    "SEDANG": 43,
+    "TINGGI": 21,
+    "SEDANG": 41,
     "RENDAH": 1,
     "PERLU_VERIFIKASI": 17
    },
    "dokumen": {
-    "terunggah": 2216,
-    "kamar_berisi": 13,
+    "terunggah": 2454,
+    "kamar_berisi": 14,
     "total_kategori": 15,
     "dibaca_dari_drive": true
    }
   },
   "gap": {
    "total": {
-    "TINGGI": 22,
-    "SEDANG": 43,
+    "TINGGI": 21,
+    "SEDANG": 41,
     "RENDAH": 1,
     "PERLU_VERIFIKASI": 17
    },
@@ -936,15 +928,9 @@
     },
     "G10": {
      "TINGGI": 0,
-     "SEDANG": 4,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 3
-    },
-    "G04": {
-     "TINGGI": 1,
      "SEDANG": 2,
      "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
+     "PERLU_VERIFIKASI": 3
     },
     "G06": {
      "TINGGI": 0,
@@ -955,6 +941,12 @@
     "G09": {
      "TINGGI": 0,
      "SEDANG": 1,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 1
+    },
+    "G04": {
+     "TINGGI": 0,
+     "SEDANG": 2,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
@@ -976,12 +968,6 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
-    "G12": {
-     "TINGGI": 0,
-     "SEDANG": 1,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 0
-    },
     "G15": {
      "TINGGI": 0,
      "SEDANG": 1,
@@ -997,6 +983,12 @@
     "G14": {
      "TINGGI": 0,
      "SEDANG": 2,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 0
+    },
+    "G12": {
+     "TINGGI": 0,
+     "SEDANG": 1,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
