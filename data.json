@@ -1,10 +1,10 @@
 {
  "bentuk": 6,
- "revision": 6076,
+ "revision": 6161,
  "data": {
   "hari": "Sabtu",
   "tanggal": "28-11-2026",
-  "jam": "07.10"
+  "jam": "10.14"
  },
  "basis": {
   "kategori": [
@@ -139,9 +139,9 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 5,
-     "SEDANG": 13,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 5
+     "SEDANG": 19,
+     "RENDAH": 1,
+     "PERLU_VERIFIKASI": 7
     }
    },
    {
@@ -226,8 +226,8 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 4,
-     "SEDANG": 4,
+     "TINGGI": 5,
+     "SEDANG": 7,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     }
@@ -460,8 +460,8 @@
     "penyampaian": "UNKNOWN",
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
-     "terunggah": 104,
-     "baris_indeks": 111
+     "terunggah": 103,
+     "baris_indeks": 110
     },
     "ssot_risiko": null,
     "tenggat": "2026-11-27",
@@ -689,7 +689,7 @@
     "penilaian": "NOT_ASSESSED_BY_BPK",
     "dokumen": {
      "terunggah": 1426,
-     "baris_indeks": 4251
+     "baris_indeks": 4247
     },
     "ssot_risiko": {
      "berkas": "SSOT_G11_PERTANGGUNGJAWABAN_GAP-RISIKO_2026_SULUT-690893_v2.xlsx",
@@ -738,10 +738,10 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 4,
-     "SEDANG": 11,
-     "RENDAH": 1,
-     "PERLU_VERIFIKASI": 0
+     "TINGGI": 5,
+     "SEDANG": 12,
+     "RENDAH": 2,
+     "PERLU_VERIFIKASI": 3
     }
    },
    {
@@ -826,8 +826,8 @@
     },
     "tenggat": "2026-11-27",
     "gap": {
-     "TINGGI": 3,
-     "SEDANG": 3,
+     "TINGGI": 2,
+     "SEDANG": 5,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     }
@@ -883,7 +883,7 @@
     "tenggat": "2026-11-27",
     "gap": {
      "TINGGI": 0,
-     "SEDANG": 3,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     }
@@ -928,13 +928,13 @@
     "label": "Mulai Validasi dan perbaikan"
    },
    "gap": {
-    "TINGGI": 21,
-    "SEDANG": 61,
-    "RENDAH": 2,
-    "PERLU_VERIFIKASI": 26
+    "TINGGI": 22,
+    "SEDANG": 74,
+    "RENDAH": 4,
+    "PERLU_VERIFIKASI": 31
    },
    "dokumen": {
-    "terunggah": 3199,
+    "terunggah": 3198,
     "kamar_berisi": 14,
     "total_kategori": 15,
     "dibaca_dari_drive": true
@@ -942,23 +942,17 @@
   },
   "gap": {
    "total": {
-    "TINGGI": 21,
-    "SEDANG": 61,
-    "RENDAH": 2,
-    "PERLU_VERIFIKASI": 26
+    "TINGGI": 22,
+    "SEDANG": 74,
+    "RENDAH": 4,
+    "PERLU_VERIFIKASI": 31
    },
    "per_kategori": {
     "G02": {
      "TINGGI": 5,
-     "SEDANG": 13,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 5
-    },
-    "G13": {
-     "TINGGI": 3,
-     "SEDANG": 3,
-     "RENDAH": 0,
-     "PERLU_VERIFIKASI": 1
+     "SEDANG": 19,
+     "RENDAH": 1,
+     "PERLU_VERIFIKASI": 7
     },
     "G08": {
      "TINGGI": 0,
@@ -998,7 +992,7 @@
     },
     "G14": {
      "TINGGI": 0,
-     "SEDANG": 3,
+     "SEDANG": 4,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
@@ -1014,15 +1008,21 @@
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 1
     },
+    "G13": {
+     "TINGGI": 2,
+     "SEDANG": 5,
+     "RENDAH": 0,
+     "PERLU_VERIFIKASI": 1
+    },
     "G11": {
-     "TINGGI": 4,
-     "SEDANG": 11,
-     "RENDAH": 1,
-     "PERLU_VERIFIKASI": 0
+     "TINGGI": 5,
+     "SEDANG": 12,
+     "RENDAH": 2,
+     "PERLU_VERIFIKASI": 3
     },
     "G03": {
-     "TINGGI": 4,
-     "SEDANG": 4,
+     "TINGGI": 5,
+     "SEDANG": 7,
      "RENDAH": 0,
      "PERLU_VERIFIKASI": 0
     },
